@@ -1,0 +1,51 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "GKVSV-EX-ERP-TA7-Dateinummer",
+  "url": "https://fhir.gkvsv.de/StructureDefinition/GKVSV_EX_ERP_TA7_Dateinummer",
+  "version": "1.2",
+  "name": "GKVSV_EX_ERP_TA7_Dateinummer",
+  "title": "GKVSV_EX_ERP_TA7_Dateinummer",
+  "status": "active",
+  "date": "2022-03-31",
+  "description": "TA7 Dateinummer",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Bundle.identifier"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "https://fhir.gkvsv.de/StructureDefinition/GKVSV_EX_ERP_TA7_Dateinummer"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "string"
+          }
+        ],
+        "constraint": [
+          {
+            "key": "Dateinummer-length",
+            "severity": "error",
+            "human": "Die Dateinummer muss 5 Zeichen lang sein (beginnend mit 00001).",
+            "expression": "toString().matches('^\\\\d{5}$')",
+            "source": "https://fhir.gkvsv.de/StructureDefinition/GKVSV_EX_ERP_TA7_Dateinummer"
+          }
+        ]
+      }
+    ]
+  }
+}

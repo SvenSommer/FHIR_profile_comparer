@@ -1,0 +1,246 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "GKVSV-EX-ERP-RezeptBundleReferenz",
+  "url": "https://fhir.gkvsv.de/StructureDefinition/GKVSV_EX_ERP_RezeptBundleReferenz",
+  "version": "1.2",
+  "name": "GKVSV_EX_ERP_RezeptBundleReferenz",
+  "title": "GKVSV_EX_ERP_RezeptBundleReferenz",
+  "status": "active",
+  "date": "2022-03-31",
+  "description": "Referenz RezeptBundle",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Invoice"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Extension.extension:lineItem",
+        "path": "Extension.extension",
+        "sliceName": "lineItem",
+        "min": 1
+      },
+      {
+        "id": "Extension.extension:lineItem.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "lineItem"
+      },
+      {
+        "id": "Extension.extension:lineItem.value[x]",
+        "path": "Extension.extension.value[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "https://fhir.gkvsv.de/StructureDefinition/GKVSV_PR_TA7_RezeptBundle"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:lineItem.value[x].reference",
+        "path": "Extension.extension.value[x].reference",
+        "min": 1
+      },
+      {
+        "id": "Extension.extension:lineItem.value[x].type",
+        "path": "Extension.extension.value[x].type",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:lineItem.value[x].identifier",
+        "path": "Extension.extension.value[x].identifier",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:lineItem.value[x].display",
+        "path": "Extension.extension.value[x].display",
+        "max": "0"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "https://fhir.gkvsv.de/StructureDefinition/GKVSV_EX_ERP_RezeptBundleReferenz"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "max": "0",
+        "type": [
+          {
+            "code": "base64Binary"
+          },
+          {
+            "code": "boolean"
+          },
+          {
+            "code": "canonical"
+          },
+          {
+            "code": "code"
+          },
+          {
+            "code": "date"
+          },
+          {
+            "code": "dateTime"
+          },
+          {
+            "code": "decimal"
+          },
+          {
+            "code": "id"
+          },
+          {
+            "code": "instant"
+          },
+          {
+            "code": "integer"
+          },
+          {
+            "code": "markdown"
+          },
+          {
+            "code": "oid"
+          },
+          {
+            "code": "positiveInt"
+          },
+          {
+            "code": "string"
+          },
+          {
+            "code": "time"
+          },
+          {
+            "code": "unsignedInt"
+          },
+          {
+            "code": "uri"
+          },
+          {
+            "code": "url"
+          },
+          {
+            "code": "uuid"
+          },
+          {
+            "code": "Address"
+          },
+          {
+            "code": "Age"
+          },
+          {
+            "code": "Annotation"
+          },
+          {
+            "code": "Attachment"
+          },
+          {
+            "code": "CodeableConcept"
+          },
+          {
+            "code": "Coding"
+          },
+          {
+            "code": "ContactPoint"
+          },
+          {
+            "code": "Count"
+          },
+          {
+            "code": "Distance"
+          },
+          {
+            "code": "Duration"
+          },
+          {
+            "code": "HumanName"
+          },
+          {
+            "code": "Identifier"
+          },
+          {
+            "code": "Money"
+          },
+          {
+            "code": "Period"
+          },
+          {
+            "code": "Quantity"
+          },
+          {
+            "code": "Range"
+          },
+          {
+            "code": "Ratio"
+          },
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "https://fhir.gkvsv.de/StructureDefinition/GKVSV_PR_TA7_RezeptBundle"
+            ]
+          },
+          {
+            "code": "SampledData"
+          },
+          {
+            "code": "Signature"
+          },
+          {
+            "code": "Timing"
+          },
+          {
+            "code": "ContactDetail"
+          },
+          {
+            "code": "Contributor"
+          },
+          {
+            "code": "DataRequirement"
+          },
+          {
+            "code": "Expression"
+          },
+          {
+            "code": "ParameterDefinition"
+          },
+          {
+            "code": "RelatedArtifact"
+          },
+          {
+            "code": "TriggerDefinition"
+          },
+          {
+            "code": "UsageContext"
+          },
+          {
+            "code": "Dosage"
+          }
+        ]
+      }
+    ]
+  }
+}

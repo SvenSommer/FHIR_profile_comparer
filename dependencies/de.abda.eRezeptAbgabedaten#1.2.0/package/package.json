@@ -1,0 +1,14 @@
+{
+  "name": "de.abda.erezeptabgabedaten",
+  "version": "1.2.0",
+  "description": "eRezeptAbgabedatensatz 1.2.0 vom 31.03.2022",
+  "author": "ABDA FHIR Team",
+  "fhirVersions": [
+    "4.0.1"
+  ],
+  "dependencies": {
+    "de.basisprofil.r4": "0.9.13",
+    "hl7.fhir.r4.core": "4.0.1",
+    "de.abda.eRezeptAbgabedatenBasis": "1.2.0"
+  }
+}

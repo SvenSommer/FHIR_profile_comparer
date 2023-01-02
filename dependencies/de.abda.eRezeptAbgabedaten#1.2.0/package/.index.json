@@ -1,0 +1,136 @@
+{
+  "date": "2022-12-23T09:44:27.4818049+01:00",
+  "index-version": 5,
+  "files": [
+    {
+      "filename": "Profile-DAV-PR-ERP-Abgabeinformationen.json",
+      "resourceType": "StructureDefinition",
+      "id": "DAV-PR-ERP-Abgabeinformationen",
+      "url": "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PR-ERP-Abgabeinformationen",
+      "version": "1.2",
+      "kind": "resource",
+      "type": "MedicationDispense",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "CodeSystem-DAV-CS-ERP-ZusatzdatenEinheitPreiskennzeichen.json",
+      "resourceType": "CodeSystem",
+      "id": "DAV-CS-ERP-ZusatzdatenEinheitPreiskennzeichen",
+      "url": "http://fhir.abda.de/eRezeptAbgabedaten/CodeSystem/DAV-CS-ERP-ZusatzdatenEinheitPreiskennzeichen",
+      "version": "1.2",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "Profile-DAV-PR-ERP-AbgabedatenComposition.json",
+      "resourceType": "StructureDefinition",
+      "id": "DAV-PR-ERP-AbgabedatenComposition",
+      "url": "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PR-ERP-AbgabedatenComposition",
+      "version": "1.2",
+      "kind": "resource",
+      "type": "Composition",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "Profile-DAV-PR-ERP-Abrechnungszeilen.json",
+      "resourceType": "StructureDefinition",
+      "id": "DAV-PR-ERP-Abrechnungszeilen",
+      "url": "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PR-ERP-Abrechnungszeilen",
+      "version": "1.2",
+      "kind": "resource",
+      "type": "Invoice",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "Profile-DAV-PR-ERP-AbgabedatenBundle.json",
+      "resourceType": "StructureDefinition",
+      "id": "DAV-PR-ERP-AbgabedatenBundle",
+      "url": "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PR-ERP-AbgabedatenBundle",
+      "version": "1.2",
+      "kind": "resource",
+      "type": "Bundle",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "ValueSet-DAV-VS-ERP-KostenVersicherterKategorie.json",
+      "resourceType": "ValueSet",
+      "id": "DAV-VS-ERP-KostenVersicherterKategorie",
+      "url": "http://fhir.abda.de/eRezeptAbgabedaten/ValueSet/DAV-VS-ERP-KostenVersicherterKategorie",
+      "version": "1.2",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "CodeSystem-DAV-CS-ERP-ArtRezeptaenderung.json",
+      "resourceType": "CodeSystem",
+      "id": "DAV-CS-ERP-ArtRezeptaenderung",
+      "url": "http://fhir.abda.de/eRezeptAbgabedaten/CodeSystem/DAV-CS-ERP-ArtRezeptaenderung",
+      "version": "1.2",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "CodeSystem-DAV-CS-ERP-KostenVersicherterKategorie.json",
+      "resourceType": "CodeSystem",
+      "id": "DAV-CS-ERP-KostenVersicherterKategorie",
+      "url": "http://fhir.abda.de/eRezeptAbgabedaten/CodeSystem/DAV-CS-ERP-KostenVersicherterKategorie",
+      "version": "1.2",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "ValueSet-DAV-VS-ERP-ArtRezeptaenderung.json",
+      "resourceType": "ValueSet",
+      "id": "DAV-VS-ERP-ArtRezeptaenderung",
+      "url": "http://fhir.abda.de/eRezeptAbgabedaten/ValueSet/DAV-VS-ERP-ArtRezeptaenderung",
+      "version": "1.2",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "Profile-DAV-PR-ERP-ZusatzdatenEinheit.json",
+      "resourceType": "StructureDefinition",
+      "id": "DAV-PR-ERP-ZusatzdatenEinheit",
+      "url": "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PR-ERP-ZusatzdatenEinheit",
+      "version": "1.2",
+      "kind": "resource",
+      "type": "Invoice",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "Profile-DAV-PR-ERP-Apotheke.json",
+      "resourceType": "StructureDefinition",
+      "id": "DAV-PR-ERP-Apotheke",
+      "url": "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PR-ERP-Apotheke",
+      "version": "1.2",
+      "kind": "resource",
+      "type": "Organization",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "Profile-DAV-PR-ERP-ZusatzdatenHerstellung.json",
+      "resourceType": "StructureDefinition",
+      "id": "DAV-PR-ERP-ZusatzdatenHerstellung",
+      "url": "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PR-ERP-ZusatzdatenHerstellung",
+      "version": "1.2",
+      "kind": "resource",
+      "type": "MedicationDispense",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "ValueSet-DAV-VS-ERP-ZusatzdatenEinheitPreiskennzeichen.json",
+      "resourceType": "ValueSet",
+      "id": "DAV-VS-ERP-ZusatzdatenEinheitPreiskennzeichen",
+      "url": "http://fhir.abda.de/eRezeptAbgabedaten/ValueSet/DAV-VS-ERP-ZusatzdatenEinheitPreiskennzeichen",
+      "version": "1.2",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    }
+  ]
+}

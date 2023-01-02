@@ -1,0 +1,409 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "GKVSV-PR-TA7-Rechnung",
+  "url": "https://fhir.gkvsv.de/StructureDefinition/GKVSV_PR_TA7_Rechnung",
+  "version": "1.2",
+  "name": "GKVSV_PR_TA7_Rechnung",
+  "title": "GKVSV_PR_TA7_Rechnung",
+  "status": "active",
+  "date": "2022-03-31",
+  "description": "Rechnung an den Kostenträger",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Invoice",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Invoice",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Invoice.id",
+        "path": "Invoice.id",
+        "mustSupport": true
+      },
+      {
+        "id": "Invoice.meta",
+        "path": "Invoice.meta",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Invoice.meta.profile",
+        "path": "Invoice.meta.profile",
+        "min": 1,
+        "max": "1",
+        "fixedCanonical": "https://fhir.gkvsv.de/StructureDefinition/GKVSV_PR_TA7_Rechnung|1.2",
+        "mustSupport": true
+      },
+      {
+        "id": "Invoice.implicitRules",
+        "path": "Invoice.implicitRules",
+        "max": "0"
+      },
+      {
+        "id": "Invoice.language",
+        "path": "Invoice.language",
+        "max": "0"
+      },
+      {
+        "id": "Invoice.text",
+        "path": "Invoice.text",
+        "max": "0"
+      },
+      {
+        "id": "Invoice.contained",
+        "path": "Invoice.contained",
+        "max": "0"
+      },
+      {
+        "id": "Invoice.extension",
+        "path": "Invoice.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 2
+      },
+      {
+        "id": "Invoice.extension:abrechnungszeitraum",
+        "path": "Invoice.extension",
+        "sliceName": "abrechnungszeitraum",
+        "short": "Abrechnungszeitraum",
+        "definition": "Anzugeben ist der letzte Tag des Abrechnungszeitraums",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://fhir.gkvsv.de/StructureDefinition/GKVSV_EX_ERP_TA7_Abrechnungszeitraum"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Invoice.extension:abrechnungszeitraum.value[x]",
+        "path": "Invoice.extension.value[x]",
+        "mustSupport": true
+      },
+      {
+        "id": "Invoice.extension:referenceRezeptBundle",
+        "path": "Invoice.extension",
+        "sliceName": "referenceRezeptBundle",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://fhir.gkvsv.de/StructureDefinition/GKVSV_EX_ERP_RezeptBundleReferenz"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Invoice.extension:referenceRezeptBundle.extension",
+        "path": "Invoice.extension.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 1
+      },
+      {
+        "id": "Invoice.extension:referenceRezeptBundle.extension:lineItem",
+        "path": "Invoice.extension.extension",
+        "sliceName": "lineItem",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Invoice.extension:referenceRezeptBundle.extension:lineItem.value[x]",
+        "path": "Invoice.extension.extension.value[x]",
+        "mustSupport": true
+      },
+      {
+        "id": "Invoice.extension:referenceRezeptBundle.extension:lineItem.value[x].reference",
+        "path": "Invoice.extension.extension.value[x].reference",
+        "mustSupport": true
+      },
+      {
+        "id": "Invoice.identifier",
+        "path": "Invoice.identifier",
+        "short": "Sammelrechnungsnummer",
+        "definition": "Sammelrechnungsnummer des Zahlungsempfängers. Es muss sich um eine eindeutige nachrichtentyp-übergreifende Rechnungsnummer handeln.",
+        "min": 1,
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Invoice.identifier.use",
+        "path": "Invoice.identifier.use",
+        "max": "0"
+      },
+      {
+        "id": "Invoice.identifier.type",
+        "path": "Invoice.identifier.type",
+        "max": "0"
+      },
+      {
+        "id": "Invoice.identifier.system",
+        "path": "Invoice.identifier.system",
+        "min": 1,
+        "fixedUri": "https://fhir.gkvsv.de/NamingSystem/GKVSV_NS_Sammelrechnungsnummer",
+        "mustSupport": true
+      },
+      {
+        "id": "Invoice.identifier.value",
+        "path": "Invoice.identifier.value",
+        "short": "Sammelrechnungsnummer",
+        "definition": "Sammelrechnungsnummer des Zahlungsempfängers. Es muss sich um eine eindeutige nachrichtentyp-übergreifende Rechnungsnummer handeln.",
+        "min": 1,
+        "constraint": [
+          {
+            "key": "Sammelrechnungsnummer-maxLength",
+            "severity": "error",
+            "human": "Die Sammelrechnungsnummer darf maximal 20 Zeichen lang sein.",
+            "expression": "length()<=20",
+            "source": "https://fhir.gkvsv.de/StructureDefinition/GKVSV_PR_TA7_Rechnung"
+          },
+          {
+            "key": "char-1",
+            "severity": "error",
+            "human": "Die Sammelrechnungsnummer darf nicht die Zeichen  \"/:?*\\\"<>|\" enthalten.",
+            "expression": "toString().matches('^\\\\S*[\\/:?*\\\\\\\"<>|]\\\\S*$').not()",
+            "source": "https://fhir.gkvsv.de/StructureDefinition/GKVSV_PR_TA7_Rechnung"
+          },
+          {
+            "key": "char-2",
+            "severity": "error",
+            "human": "Die Sammelrechnungsnummer darf nicht die Zeichenkette \"\\\\\" enthalten.",
+            "expression": "toString().contains('\\\\').not()",
+            "source": "https://fhir.gkvsv.de/StructureDefinition/GKVSV_PR_TA7_Rechnung"
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Invoice.identifier.period",
+        "path": "Invoice.identifier.period",
+        "max": "0"
+      },
+      {
+        "id": "Invoice.identifier.assigner",
+        "path": "Invoice.identifier.assigner",
+        "max": "0"
+      },
+      {
+        "id": "Invoice.status",
+        "path": "Invoice.status",
+        "fixedCode": "issued",
+        "mustSupport": true
+      },
+      {
+        "id": "Invoice.cancelledReason",
+        "path": "Invoice.cancelledReason",
+        "max": "0"
+      },
+      {
+        "id": "Invoice.type",
+        "path": "Invoice.type",
+        "short": "Rechnungsart",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Invoice.type.coding",
+        "path": "Invoice.type.coding",
+        "min": 1,
+        "max": "1",
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "description": "Die Kennzeichnung der Art der Abrechnung muss aus dem Value Set 'https://fhir.gkvsv.de/ValueSet/GKVSV_VS_ERP_Rechnungsart' gewählt werden.",
+          "valueSet": "https://fhir.gkvsv.de/ValueSet/GKVSV_VS_ERP_Rechnungsart"
+        }
+      },
+      {
+        "id": "Invoice.type.coding.system",
+        "path": "Invoice.type.coding.system",
+        "min": 1,
+        "fixedUri": "https://fhir.gkvsv.de/CodeSystem/GKVSV_CS_ERP_Rechnungsart",
+        "mustSupport": true
+      },
+      {
+        "id": "Invoice.type.coding.version",
+        "path": "Invoice.type.coding.version",
+        "max": "0"
+      },
+      {
+        "id": "Invoice.type.coding.code",
+        "path": "Invoice.type.coding.code",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Invoice.type.coding.display",
+        "path": "Invoice.type.coding.display",
+        "mustSupport": true
+      },
+      {
+        "id": "Invoice.type.coding.userSelected",
+        "path": "Invoice.type.coding.userSelected",
+        "max": "0"
+      },
+      {
+        "id": "Invoice.type.text",
+        "path": "Invoice.type.text",
+        "max": "0"
+      },
+      {
+        "id": "Invoice.subject",
+        "path": "Invoice.subject",
+        "max": "0"
+      },
+      {
+        "id": "Invoice.recipient",
+        "path": "Invoice.recipient",
+        "short": "Kostenträger-IK",
+        "definition": "IK des Kostenträgers",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Invoice.recipient.reference",
+        "path": "Invoice.recipient.reference",
+        "max": "0"
+      },
+      {
+        "id": "Invoice.recipient.type",
+        "path": "Invoice.recipient.type",
+        "max": "0"
+      },
+      {
+        "id": "Invoice.recipient.identifier",
+        "path": "Invoice.recipient.identifier",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Invoice.recipient.identifier.use",
+        "path": "Invoice.recipient.identifier.use",
+        "max": "0"
+      },
+      {
+        "id": "Invoice.recipient.identifier.type",
+        "path": "Invoice.recipient.identifier.type",
+        "max": "0"
+      },
+      {
+        "id": "Invoice.recipient.identifier.type.text",
+        "path": "Invoice.recipient.identifier.type.text",
+        "max": "0"
+      },
+      {
+        "id": "Invoice.recipient.identifier.system",
+        "path": "Invoice.recipient.identifier.system",
+        "min": 1,
+        "fixedUri": "http://fhir.de/NamingSystem/arge-ik/iknr",
+        "mustSupport": true
+      },
+      {
+        "id": "Invoice.recipient.identifier.value",
+        "path": "Invoice.recipient.identifier.value",
+        "short": "Kostenträger-IK",
+        "definition": "IK des Kostenträgers",
+        "min": 1,
+        "constraint": [
+          {
+            "key": "KostentraegerID-length",
+            "severity": "error",
+            "human": "Die IK des Kostenträgers muss 9 Zeichen lang und numerisch sein.",
+            "expression": "toString().matches('^\\\\d{9}$')",
+            "source": "https://fhir.gkvsv.de/StructureDefinition/GKVSV_PR_TA7_Rechnung"
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Invoice.recipient.identifier.period",
+        "path": "Invoice.recipient.identifier.period",
+        "max": "0"
+      },
+      {
+        "id": "Invoice.recipient.identifier.assigner",
+        "path": "Invoice.recipient.identifier.assigner",
+        "max": "0"
+      },
+      {
+        "id": "Invoice.recipient.display",
+        "path": "Invoice.recipient.display",
+        "max": "0"
+      },
+      {
+        "id": "Invoice.date",
+        "path": "Invoice.date",
+        "short": "Rechnungsdatum",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Invoice.participant",
+        "path": "Invoice.participant",
+        "max": "0"
+      },
+      {
+        "id": "Invoice.issuer",
+        "path": "Invoice.issuer",
+        "max": "0"
+      },
+      {
+        "id": "Invoice.account",
+        "path": "Invoice.account",
+        "max": "0"
+      },
+      {
+        "id": "Invoice.lineItem",
+        "path": "Invoice.lineItem",
+        "max": "0"
+      },
+      {
+        "id": "Invoice.totalPriceComponent",
+        "path": "Invoice.totalPriceComponent",
+        "max": "0"
+      },
+      {
+        "id": "Invoice.totalNet",
+        "path": "Invoice.totalNet",
+        "max": "0"
+      },
+      {
+        "id": "Invoice.totalGross",
+        "path": "Invoice.totalGross",
+        "max": "0"
+      },
+      {
+        "id": "Invoice.paymentTerms",
+        "path": "Invoice.paymentTerms",
+        "max": "0"
+      },
+      {
+        "id": "Invoice.note",
+        "path": "Invoice.note",
+        "max": "0"
+      }
+    ]
+  }
+}

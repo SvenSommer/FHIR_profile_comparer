@@ -1,0 +1,68 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "GKVSV-EX-ERP-Bin-Bundle",
+  "url": "https://fhir.gevko.de/StructureDefinition/GKVSV_EX_ERP_Bin_Bundle",
+  "name": "GKVSV_EX_ERP_Bin_Bundle",
+  "status": "draft",
+  "date": "2022-05-02",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Invoice"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "max": "1"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "https://fhir.gevko.de/StructureDefinition/GKVSV_EX_ERP_Bin_Bundle"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "https://gematik.de/fhir/StructureDefinition/ErxBinary"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Extension.value[x].reference",
+        "path": "Extension.value[x].reference",
+        "min": 1
+      },
+      {
+        "id": "Extension.value[x].type",
+        "path": "Extension.value[x].type",
+        "min": 1,
+        "fixedUri": "https://fhir.kbv.de/StructureDefinition/KBV_PR_ERP_Bundle"
+      },
+      {
+        "id": "Extension.value[x].identifier",
+        "path": "Extension.value[x].identifier",
+        "max": "0"
+      },
+      {
+        "id": "Extension.value[x].display",
+        "path": "Extension.value[x].display",
+        "max": "0"
+      }
+    ]
+  }
+}

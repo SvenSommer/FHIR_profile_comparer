@@ -1,0 +1,136 @@
+{
+  "date": "2022-12-19T12:28:59.0853657+01:00",
+  "index-version": 5,
+  "files": [
+    {
+      "filename": "Extension-DAV-PKV-EX-ERP-Bankverbindung.json",
+      "resourceType": "StructureDefinition",
+      "id": "DAV-PKV-EX-ERP-Bankverbindung",
+      "url": "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PKV-EX-ERP-Bankverbindung",
+      "version": "1.1",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "CodeSystem-DAV-PKV-CS-ERP-ArtRezeptaenderung.json",
+      "resourceType": "CodeSystem",
+      "id": "DAV-PKV-CS-ERP-ArtRezeptaenderung",
+      "url": "http://fhir.abda.de/eRezeptAbgabedaten/CodeSystem/DAV-PKV-CS-ERP-ArtRezeptaenderung",
+      "version": "1.1",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "Profile-DAV-PKV-PR-ERP-AbgabedatenComposition.json",
+      "resourceType": "StructureDefinition",
+      "id": "DAV-PKV-PR-ERP-AbgabedatenComposition",
+      "url": "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PKV-PR-ERP-AbgabedatenComposition",
+      "version": "1.1",
+      "kind": "resource",
+      "type": "Composition",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "CodeSystem-DAV-PKV-CS-ERP-AbrechnungsTyp.json",
+      "resourceType": "CodeSystem",
+      "id": "DAV-PKV-CS-ERP-AbrechnungsTyp",
+      "url": "http://fhir.abda.de/eRezeptAbgabedaten/CodeSystem/DAV-PKV-CS-ERP-AbrechnungsTyp",
+      "version": "1.1",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "Profile-DAV-PKV-PR-ERP-Abrechnungszeilen.json",
+      "resourceType": "StructureDefinition",
+      "id": "DAV-PKV-PR-ERP-Abrechnungszeilen",
+      "url": "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PKV-PR-ERP-Abrechnungszeilen",
+      "version": "1.1",
+      "kind": "resource",
+      "type": "Invoice",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "Extension-DAV-PKV-EX-ERP-AbrechnungsTyp.json",
+      "resourceType": "StructureDefinition",
+      "id": "DAV-PKV-EX-ERP-AbrechnungsTyp",
+      "url": "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PKV-EX-ERP-AbrechnungsTyp",
+      "version": "1.1",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "ValueSet-DAV-PKV-VS-ERP-AbrechnungsTyp.json",
+      "resourceType": "ValueSet",
+      "id": "DAV-PKV-VS-ERP-AbrechnungsTyp",
+      "url": "http://fhir.abda.de/eRezeptAbgabedaten/ValueSet/DAV-PKV-VS-ERP-AbrechnungsTyp",
+      "version": "1.1",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "Profile-DAV-PKV-PR-ERP-Apotheke.json",
+      "resourceType": "StructureDefinition",
+      "id": "DAV-PKV-PR-ERP-Apotheke",
+      "url": "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PKV-PR-ERP-Apotheke",
+      "version": "1.1",
+      "kind": "resource",
+      "type": "Organization",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "ValueSet-DAV-PKV-VS-ERP-KostenVersicherterKategorie.json",
+      "resourceType": "ValueSet",
+      "id": "DAV-PKV-VS-ERP-KostenVersicherterKategorie",
+      "url": "http://fhir.abda.de/eRezeptAbgabedaten/ValueSet/DAV-PKV-VS-ERP-KostenVersicherterKategorie",
+      "version": "1.1",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "Profile-DAV-PKV-PR-ERP-Abgabeinformationen.json",
+      "resourceType": "StructureDefinition",
+      "id": "DAV-PKV-PR-ERP-Abgabeinformationen",
+      "url": "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PKV-PR-ERP-Abgabeinformationen",
+      "version": "1.1",
+      "kind": "resource",
+      "type": "MedicationDispense",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "CodeSystem-DAV-PKV-CS-ERP-KostenVersicherterKategorie.json",
+      "resourceType": "CodeSystem",
+      "id": "DAV-PKV-CS-ERP-KostenVersicherterKategorie",
+      "url": "http://fhir.abda.de/eRezeptAbgabedaten/CodeSystem/DAV-PKV-CS-ERP-KostenVersicherterKategorie",
+      "version": "1.1",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "ValueSet-DAV-PKV-VS-ERP-ArtRezeptaenderung.json",
+      "resourceType": "ValueSet",
+      "id": "DAV-PKV-VS-ERP-ArtRezeptaenderung",
+      "url": "http://fhir.abda.de/eRezeptAbgabedaten/ValueSet/DAV-PKV-VS-ERP-ArtRezeptaenderung",
+      "version": "1.1",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "Profile-DAV-PKV-PR-ERP-AbgabedatenBundle.json",
+      "resourceType": "StructureDefinition",
+      "id": "DAV-PKV-PR-ERP-AbgabedatenBundle",
+      "url": "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PKV-PR-ERP-AbgabedatenBundle",
+      "version": "1.1",
+      "kind": "resource",
+      "type": "Bundle",
+      "fhirVersion": "4.0.1"
+    }
+  ]
+}

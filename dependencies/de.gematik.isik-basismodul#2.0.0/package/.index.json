@@ -1,0 +1,236 @@
+{
+  "date": "2022-12-22T15:52:49.1419382+01:00",
+  "index-version": 5,
+  "files": [
+    {
+      "filename": "ValueSet-ProzedurenKategorieSCT.json",
+      "resourceType": "ValueSet",
+      "id": "ProzedurenKategorieSCT",
+      "url": "https://gematik.de/fhir/isik/v2/Basismodul/ValueSet/ProzedurenKategorieSCT",
+      "version": "2.0.0",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "StructureDefinition-ISiKBerichtSubSysteme.json",
+      "resourceType": "StructureDefinition",
+      "id": "ISiKBerichtSubSysteme",
+      "url": "https://gematik.de/fhir/isik/v2/Basismodul/StructureDefinition/ISiKBerichtSubSysteme",
+      "version": "2.0.0",
+      "kind": "resource",
+      "type": "Composition",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-ISiKAbrechnungsfall.json",
+      "resourceType": "StructureDefinition",
+      "id": "ISiKAbrechnungsfall",
+      "url": "https://gematik.de/fhir/isik/v2/Basismodul/StructureDefinition/ISiKAbrechnungsfall",
+      "version": "2.0.0",
+      "kind": "resource",
+      "type": "Account",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-ISiKBerichtBundle.json",
+      "resourceType": "StructureDefinition",
+      "id": "ISiKBerichtBundle",
+      "url": "https://gematik.de/fhir/isik/v2/Basismodul/StructureDefinition/ISiKBerichtBundle",
+      "version": "2.0.0",
+      "kind": "resource",
+      "type": "Bundle",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-ISiKValueSet.json",
+      "resourceType": "StructureDefinition",
+      "id": "ISiKValueSet",
+      "url": "https://gematik.de/fhir/isik/v2/Basismodul/StructureDefinition/ISiKValueSet",
+      "version": "2.0.0",
+      "kind": "resource",
+      "type": "ValueSet",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-PlannedStartDate.json",
+      "resourceType": "StructureDefinition",
+      "id": "PlannedStartDate",
+      "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.plannedStartDate",
+      "version": "2.0.0",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-ISiKBinary.json",
+      "resourceType": "StructureDefinition",
+      "id": "ISiKBinary",
+      "url": "https://gematik.de/fhir/isik/v2/Basismodul/StructureDefinition/ISiKBinary",
+      "version": "2.0.0",
+      "kind": "resource",
+      "type": "Binary",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-ISiKVersicherungsverhaeltnisGesetzlich.json",
+      "resourceType": "StructureDefinition",
+      "id": "ISiKVersicherungsverhaeltnisGesetzlich",
+      "url": "https://gematik.de/fhir/isik/v2/Basismodul/StructureDefinition/ISiKVersicherungsverhaeltnisGesetzlich",
+      "version": "2.0.0",
+      "kind": "resource",
+      "type": "Coverage",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-PlannedEndDate.json",
+      "resourceType": "StructureDefinition",
+      "id": "PlannedEndDate",
+      "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.plannedEndDate",
+      "version": "2.0.0",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-ISiKVersicherungsverhaeltnisSelbstzahler.json",
+      "resourceType": "StructureDefinition",
+      "id": "ISiKVersicherungsverhaeltnisSelbstzahler",
+      "url": "https://gematik.de/fhir/isik/v2/Basismodul/StructureDefinition/ISiKVersicherungsverhaeltnisSelbstzahler",
+      "version": "2.0.0",
+      "kind": "resource",
+      "type": "Coverage",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-ISiKPatient.json",
+      "resourceType": "StructureDefinition",
+      "id": "ISiKPatient",
+      "url": "https://gematik.de/fhir/isik/v2/Basismodul/StructureDefinition/ISiKPatient",
+      "version": "2.0.0",
+      "kind": "resource",
+      "type": "Patient",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-ISiKDiagnose.json",
+      "resourceType": "StructureDefinition",
+      "id": "ISiKDiagnose",
+      "url": "https://gematik.de/fhir/isik/v2/Basismodul/StructureDefinition/ISiKDiagnose",
+      "version": "2.0.0",
+      "kind": "resource",
+      "type": "Condition",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "ValueSet-DiagnosesSCT.json",
+      "resourceType": "ValueSet",
+      "id": "DiagnosesSCT",
+      "url": "https://gematik.de/fhir/isik/v2/Basismodul/ValueSet/DiagnosesSCT",
+      "version": "2.0.0",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "ValueSet-ISiKAccountType.json",
+      "resourceType": "ValueSet",
+      "id": "ISiKAccountType",
+      "url": "https://gematik.de/fhir/isik/v2/Basismodul/ValueSet/ISiKAccountType",
+      "version": "2.0.0",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "StructureDefinition-ISiKProzedur.json",
+      "resourceType": "StructureDefinition",
+      "id": "ISiKProzedur",
+      "url": "https://gematik.de/fhir/isik/v2/Basismodul/StructureDefinition/ISiKProzedur",
+      "version": "2.0.0",
+      "kind": "resource",
+      "type": "Procedure",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-ISiKKontaktGesundheitseinrichtung.json",
+      "resourceType": "StructureDefinition",
+      "id": "ISiKKontaktGesundheitseinrichtung",
+      "url": "https://gematik.de/fhir/isik/v2/Basismodul/StructureDefinition/ISiKKontaktGesundheitseinrichtung",
+      "version": "2.0.0",
+      "kind": "resource",
+      "type": "Encounter",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "ValueSet-ProzedurenCodesSCT.json",
+      "resourceType": "ValueSet",
+      "id": "ProzedurenCodesSCT",
+      "url": "https://gematik.de/fhir/isik/v2/Basismodul/ValueSet/ProzedurenCodesSCT",
+      "version": "2.0.0",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "ValueSet-ISiKLocationPhysicalType.json",
+      "resourceType": "ValueSet",
+      "id": "ISiKLocationPhysicalType",
+      "url": "https://gematik.de/fhir/isik/v2/Basismodul/ValueSet/ISiKLocationPhysicalType",
+      "version": "2.0.0",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "StructureDefinition-ISiKCodeSystem.json",
+      "resourceType": "StructureDefinition",
+      "id": "ISiKCodeSystem",
+      "url": "https://gematik.de/fhir/isik/v2/Basismodul/StructureDefinition/ISiKCodeSystem",
+      "version": "2.0.0",
+      "kind": "resource",
+      "type": "CodeSystem",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-ISiKPersonImGesundheitsberuf.json",
+      "resourceType": "StructureDefinition",
+      "id": "ISiKPersonImGesundheitsberuf",
+      "url": "https://gematik.de/fhir/isik/v2/Basismodul/StructureDefinition/ISiKPersonImGesundheitsberuf",
+      "version": "2.0.0",
+      "kind": "resource",
+      "type": "Practitioner",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-ISiKAngehoeriger.json",
+      "resourceType": "StructureDefinition",
+      "id": "ISiKAngehoeriger",
+      "url": "https://gematik.de/fhir/isik/v2/Basismodul/StructureDefinition/ISiKAngehoeriger",
+      "version": "2.0.0",
+      "kind": "resource",
+      "type": "RelatedPerson",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "CapabilityStatement-ISiKCapabilityStatementBasisServer.json",
+      "resourceType": "CapabilityStatement",
+      "id": "ISiKCapabilityStatementBasisServer",
+      "url": "https://gematik.de/fhir/isik/v2/Basismodul/CapabilityStatement/basis-server",
+      "version": "2.0.0",
+      "kind": "requirements",
+      "type": null,
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "ImplementierungsleitfadenIsiK_basismodul.json",
+      "resourceType": "ImplementationGuide",
+      "id": null,
+      "url": "https://gematik.de/fhir/ISiK/v2/ImplementationGuide/ISiK-basismodul",
+      "version": "2.0.0",
+      "kind": null,
+      "type": null,
+      "fhirVersion": "4.0.1"
+    }
+  ]
+}

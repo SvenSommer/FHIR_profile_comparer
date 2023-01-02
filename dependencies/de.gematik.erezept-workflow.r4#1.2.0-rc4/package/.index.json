@@ -1,0 +1,476 @@
+{
+  "date": "2022-12-19T12:28:52.5404348+01:00",
+  "index-version": 5,
+  "files": [
+    {
+      "filename": "StructureDefinition-GEM-ERP-EX-InsuranceProvider.json",
+      "resourceType": "StructureDefinition",
+      "id": "GEM-ERP-EX-InsuranceProvider",
+      "url": "https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_EX_InsuranceProvider",
+      "version": "1.2",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-GEM-ERP-PR-Bundle.json",
+      "resourceType": "StructureDefinition",
+      "id": "GEM-ERP-PR-Bundle",
+      "url": "https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_Bundle",
+      "version": "1.2",
+      "kind": "resource",
+      "type": "Bundle",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-GEM-ERP-PR-Communication-InfoReq.json",
+      "resourceType": "StructureDefinition",
+      "id": "GEM-ERP-PR-Communication-InfoReq",
+      "url": "https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_Communication_InfoReq",
+      "version": "1.2",
+      "kind": "resource",
+      "type": "Communication",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "ValueSet-GEM-ERP-VS-FlowType.json",
+      "resourceType": "ValueSet",
+      "id": "GEM-ERP-VS-FlowType",
+      "url": "https://gematik.de/fhir/erp/ValueSet/GEM_ERP_VS_FlowType",
+      "version": "1.2",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "StructureDefinition-GEM-ERP-PR-MedicationDispense.json",
+      "resourceType": "StructureDefinition",
+      "id": "GEM-ERP-PR-MedicationDispense",
+      "url": "https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_MedicationDispense",
+      "version": "1.2",
+      "kind": "resource",
+      "type": "MedicationDispense",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-GEM-ERP-PR-Binary.json",
+      "resourceType": "StructureDefinition",
+      "id": "GEM-ERP-PR-Binary",
+      "url": "https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_Binary",
+      "version": "1.2",
+      "kind": "resource",
+      "type": "Binary",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-GEM-ERP-EX-PackageQuantity.json",
+      "resourceType": "StructureDefinition",
+      "id": "GEM-ERP-EX-PackageQuantity",
+      "url": "https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_EX_PackageQuantity",
+      "version": "1.2",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "ValueSet-GEM-ERP-VS-AvailabilityStatus.json",
+      "resourceType": "ValueSet",
+      "id": "GEM-ERP-VS-AvailabilityStatus",
+      "url": "https://gematik.de/fhir/erp/ValueSet/GEM_ERP_VS_AvailabilityStatus",
+      "version": "1.2",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "StructureDefinition-GEM-ERP-EX-SupplyOptionsType.json",
+      "resourceType": "StructureDefinition",
+      "id": "GEM-ERP-EX-SupplyOptionsType",
+      "url": "https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_EX_SupplyOptionsType",
+      "version": "1.2",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-GEM-ERP-PR-Secret.json",
+      "resourceType": "StructureDefinition",
+      "id": "GEM-ERP-PR-Secret",
+      "url": "https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_Secret",
+      "version": "1.2",
+      "kind": "complex-type",
+      "type": "Identifier",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-GEM-ERP-PR-Task.json",
+      "resourceType": "StructureDefinition",
+      "id": "GEM-ERP-PR-Task",
+      "url": "https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_Task",
+      "version": "1.2",
+      "kind": "resource",
+      "type": "Task",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_VS_SFHIR_KBV_NORMGROESSE_V1.00.json",
+      "resourceType": "ValueSet",
+      "id": "KBV-VS-SFHIR-KBV-NORMGROESSE",
+      "url": "https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_KBV_NORMGROESSE",
+      "version": "1.00",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "StructureDefinition-GEM-ERP-EX-AvailabilityState.json",
+      "resourceType": "StructureDefinition",
+      "id": "GEM-ERP-EX-AvailabilityState",
+      "url": "https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_EX_AvailabilityState",
+      "version": "1.2",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "KBV_CS_SFHIR_KBV_DARREICHUNGSFORM_V1.10.json",
+      "resourceType": "CodeSystem",
+      "id": "KBV-CS-SFHIR-KBV-DARREICHUNGSFORM",
+      "url": "https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_KBV_DARREICHUNGSFORM",
+      "version": "1.10",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "StructureDefinition-GEM-ERP-PR-Communication-Representative.json",
+      "resourceType": "StructureDefinition",
+      "id": "GEM-ERP-PR-Communication-Representative",
+      "url": "https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_Communication_Representative",
+      "version": "1.2",
+      "kind": "resource",
+      "type": "Communication",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "CodeSystem-GEM-ERP-CS-DocumentType.json",
+      "resourceType": "CodeSystem",
+      "id": "GEM-ERP-CS-DocumentType",
+      "url": "https://gematik.de/fhir/erp/CodeSystem/GEM_ERP_CS_DocumentType",
+      "version": "1.2",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "StructureDefinition-GEM-ERP-PR-Digest.json",
+      "resourceType": "StructureDefinition",
+      "id": "GEM-ERP-PR-Digest",
+      "url": "https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_Digest",
+      "version": "1.2",
+      "kind": "resource",
+      "type": "Binary",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-GEM-ERP-PR-Signature.json",
+      "resourceType": "StructureDefinition",
+      "id": "GEM-ERP-PR-Signature",
+      "url": "https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_Signature",
+      "version": "1.2",
+      "kind": "complex-type",
+      "type": "Signature",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "OperationDefinition-ActivateOperation.json",
+      "resourceType": "OperationDefinition",
+      "id": "ActivateOperation",
+      "url": "http://gematik.de/fhir/erp/OperationDefinition/ActivateOperationDefinition",
+      "version": "1.2",
+      "kind": "operation",
+      "type": "false",
+      "fhirVersion": null
+    },
+    {
+      "filename": "StructureDefinition-GEM-ERP-PR-Communication-Reply.json",
+      "resourceType": "StructureDefinition",
+      "id": "GEM-ERP-PR-Communication-Reply",
+      "url": "https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_Communication_Reply",
+      "version": "1.2",
+      "kind": "resource",
+      "type": "Communication",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-GEM-ERP-EX-AcceptDate.json",
+      "resourceType": "StructureDefinition",
+      "id": "GEM-ERP-EX-AcceptDate",
+      "url": "https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_EX_AcceptDate",
+      "version": "1.2",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-GEM-ERP-PR-BfArMApproval.json",
+      "resourceType": "StructureDefinition",
+      "id": "GEM-ERP-PR-BfArMApproval",
+      "url": "https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_BfArMApproval",
+      "version": "1.2",
+      "kind": "resource",
+      "type": "Provenance",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-GEM-ERP-PR-Composition.json",
+      "resourceType": "StructureDefinition",
+      "id": "GEM-ERP-PR-Composition",
+      "url": "https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_Composition",
+      "version": "1.2",
+      "kind": "resource",
+      "type": "Composition",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-GEM-ERP-PR-Communication-DispReq.json",
+      "resourceType": "StructureDefinition",
+      "id": "GEM-ERP-PR-Communication-DispReq",
+      "url": "https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_Communication_DispReq",
+      "version": "1.2",
+      "kind": "resource",
+      "type": "Communication",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-GEM-ERP-PAR-OUT-OP-Accept.json",
+      "resourceType": "StructureDefinition",
+      "id": "GEM-ERP-PAR-OUT-OP-Accept",
+      "url": "https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PAR_OUT_OP_Accept",
+      "version": "1.2",
+      "kind": "resource",
+      "type": "Parameters",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-GEM-ERP-EX-ExpiryDate.json",
+      "resourceType": "StructureDefinition",
+      "id": "GEM-ERP-EX-ExpiryDate",
+      "url": "https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_EX_ExpiryDate",
+      "version": "1.2",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-GEM-ERP-EX-PrescriptionType.json",
+      "resourceType": "StructureDefinition",
+      "id": "GEM-ERP-EX-PrescriptionType",
+      "url": "https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_EX_PrescriptionType",
+      "version": "1.2",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-GEM-ERP-EX-Beneficiary.json",
+      "resourceType": "StructureDefinition",
+      "id": "GEM-ERP-EX-Beneficiary",
+      "url": "https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_EX_Beneficiary",
+      "version": "1.2",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "CodeSystem-GEM-ERP-CS-OrganizationType.json",
+      "resourceType": "CodeSystem",
+      "id": "GEM-ERP-CS-OrganizationType",
+      "url": "https://gematik.de/fhir/erp/CodeSystem/GEM_ERP_CS_OrganizationType",
+      "version": "1.2",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_CS_SFHIR_KBV_NORMGROESSE_V1.00.json",
+      "resourceType": "CodeSystem",
+      "id": "KBV-CS-SFHIR-KBV-NORMGROESSE",
+      "url": "https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_KBV_NORMGROESSE",
+      "version": "1.00",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "OperationDefinition-CreateOperation.json",
+      "resourceType": "OperationDefinition",
+      "id": "CreateOperation",
+      "url": "http://gematik.de/fhir/erp/OperationDefinition/CreateOperationDefinition",
+      "version": "1.2",
+      "kind": "operation",
+      "type": "true",
+      "fhirVersion": null
+    },
+    {
+      "filename": "StructureDefinition-GEM-ERP-EX-SubstitutionAllowedType.json",
+      "resourceType": "StructureDefinition",
+      "id": "GEM-ERP-EX-SubstitutionAllowedType",
+      "url": "https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_EX_SubstitutionAllowedType",
+      "version": "1.2",
+      "kind": "complex-type",
+      "type": "Extension",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "CodeSystem-GEM-ERP-CS-FlowType.json",
+      "resourceType": "CodeSystem",
+      "id": "GEM-ERP-CS-FlowType",
+      "url": "https://gematik.de/fhir/erp/CodeSystem/GEM_ERP_CS_FlowType",
+      "version": "1.2",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "StructureDefinition-GEM-ERP-PR-AuditEvent.json",
+      "resourceType": "StructureDefinition",
+      "id": "GEM-ERP-PR-AuditEvent",
+      "url": "https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_AuditEvent",
+      "version": "1.2",
+      "kind": "resource",
+      "type": "AuditEvent",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "ValueSet-GEM-ERP-VS-PerformerType.json",
+      "resourceType": "ValueSet",
+      "id": "GEM-ERP-VS-PerformerType",
+      "url": "https://gematik.de/fhir/erp/ValueSet/GEM_ERP_VS_PerformerType",
+      "version": "1.2",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "OperationDefinition-RejectOperation.json",
+      "resourceType": "OperationDefinition",
+      "id": "RejectOperation",
+      "url": "http://gematik.de/fhir/erp/OperationDefinition/RejectOperationDefinition",
+      "version": "1.2",
+      "kind": "operation",
+      "type": "false",
+      "fhirVersion": null
+    },
+    {
+      "filename": "ValueSet-GEM-ERP-VS-OrganizationType.json",
+      "resourceType": "ValueSet",
+      "id": "GEM-ERP-VS-OrganizationType",
+      "url": "https://gematik.de/fhir/erp/ValueSet/GEM_ERP_VS_OrganizationType",
+      "version": "1.2",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "ValueSet-GEM-ERP-VS-DocumentType.json",
+      "resourceType": "ValueSet",
+      "id": "GEM-ERP-VS-DocumentType",
+      "url": "https://gematik.de/fhir/erp/CodeSystem/GEM_ERP_VS_DocumentType",
+      "version": "1.2",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "StructureDefinition-GEM-ERP-PR-CloseOperationInputBundle.json",
+      "resourceType": "StructureDefinition",
+      "id": "GEM-ERP-PR-CloseOperationInputBundle",
+      "url": "https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_CloseOperationInputBundle",
+      "version": "1.2",
+      "kind": "resource",
+      "type": "Bundle",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-GEM-ERP-PR-PrescriptionId.json",
+      "resourceType": "StructureDefinition",
+      "id": "GEM-ERP-PR-PrescriptionId",
+      "url": "https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_PrescriptionId",
+      "version": "1.2",
+      "kind": "complex-type",
+      "type": "Identifier",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "StructureDefinition-GEM-ERP-PR-Device.json",
+      "resourceType": "StructureDefinition",
+      "id": "GEM-ERP-PR-Device",
+      "url": "https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_Device",
+      "version": "1.2",
+      "kind": "resource",
+      "type": "Device",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "OperationDefinition-AcceptOperation.json",
+      "resourceType": "OperationDefinition",
+      "id": "AcceptOperation",
+      "url": "http://gematik.de/fhir/erp/OperationDefinition/AcceptOperationDefinition",
+      "version": "1.2",
+      "kind": "operation",
+      "type": "false",
+      "fhirVersion": null
+    },
+    {
+      "filename": "OperationDefinition-AbortOperation.json",
+      "resourceType": "OperationDefinition",
+      "id": "AbortOperation",
+      "url": "http://gematik.de/fhir/erp/OperationDefinition/AbortOperationDefinition",
+      "version": "1.2",
+      "kind": "operation",
+      "type": "false",
+      "fhirVersion": null
+    },
+    {
+      "filename": "StructureDefinition-GEM-ERP-PR-AccessCode.json",
+      "resourceType": "StructureDefinition",
+      "id": "GEM-ERP-PR-AccessCode",
+      "url": "https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_AccessCode",
+      "version": "1.2",
+      "kind": "complex-type",
+      "type": "Identifier",
+      "fhirVersion": "4.0.1"
+    },
+    {
+      "filename": "OperationDefinition-CloseOperation.json",
+      "resourceType": "OperationDefinition",
+      "id": "CloseOperation",
+      "url": "http://gematik.de/fhir/erp/OperationDefinition/CloseOperationDefinition",
+      "version": "1.2",
+      "kind": "operation",
+      "type": "false",
+      "fhirVersion": null
+    },
+    {
+      "filename": "KBV_VS_SFHIR_KBV_DARREICHUNGSFORM_V1.10.json",
+      "resourceType": "ValueSet",
+      "id": "KBV-VS-SFHIR-KBV-DARREICHUNGSFORM",
+      "url": "https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_KBV_DARREICHUNGSFORM",
+      "version": "1.10",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    },
+    {
+      "filename": "CodeSystem-GEM-ERP-CS-AvailabilityStatus.json",
+      "resourceType": "CodeSystem",
+      "id": "GEM-ERP-CS-AvailabilityStatus",
+      "url": "https://gematik.de/fhir/erp/CodeSystem/GEM_ERP_CS_AvailabilityStatus",
+      "version": "1.2",
+      "kind": null,
+      "type": null,
+      "fhirVersion": null
+    }
+  ]
+}

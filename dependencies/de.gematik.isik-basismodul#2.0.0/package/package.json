@@ -1,0 +1,12 @@
+{
+  "name": "de.gematik.isik-basismodul",
+  "version": "2.0.0",
+  "description": "Put a description here",
+  "author": "alexanderzautke2",
+  "fhirVersions": [
+    "4.0.1"
+  ],
+  "dependencies": {
+    "de.basisprofil.r4": "1.4.0"
+  }
+}
