@@ -36,7 +36,7 @@ for filename in files:
                 else:
                     print("[INFO] Comparing file {0} v{1} with file {2} v{3}...".format(left['name'],left['version'],right['name'],right['version']))
                     destination_to = "./compare_results/{0}/{1}".format(right['package'],getProfileName(right['url']), left['name'])
-                    packages = "-ig ./dependencies/{0}#{1}/package -ig ./dependencies/{2}#{3}/package ".format(left['package'],left['version'],right['package'],right['version'])
+                    packages = "-ig {0}#{1} -ig {2}#{3}".format(left['package'],left['version'],right['package'],right['version'])
                     left_string = "{0}|{1}".format(left['url'],left['version'])
                     right_string = "{0}|{1}".format(right['url'],right['version'])
 
