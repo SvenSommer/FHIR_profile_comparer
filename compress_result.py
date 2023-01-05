@@ -73,7 +73,7 @@ def write_index_file(index_tables, summary_file):
     for table in index_tables:
         if table is not None:
             document += '<table class="grid">' + table + '</table>'
-    document += """"
+    document += """
                 </ul>
                 </body>
                 </html>
