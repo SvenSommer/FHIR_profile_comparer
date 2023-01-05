@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "ca89a409-b4ef-4911-922c-506b84de817a-2",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/ca89a409-b4ef-4911-922c-506b84de817a-2",
+  "id" : "e0bd56b7-597a-4f8a-9697-127e6def1d86-2",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/e0bd56b7-597a-4f8a-9697-127e6def1d86-2",
   "name" : "UnionGKVSV_PR_TA7_RezeptBundleAndGKVSV_PR_TA7_RezeptBundle",
   "title" : "Union of GKVSV_PR_TA7_RezeptBundle And GKVSV_PR_TA7_RezeptBundle",
   "status" : "active",
-  "date" : "2022-12-23T10:57:49+01:00",
+  "date" : "2023-01-05T09:57:57+01:00",
   "snapshot" : {
     "element" : [{
       "path" : "Bundle",

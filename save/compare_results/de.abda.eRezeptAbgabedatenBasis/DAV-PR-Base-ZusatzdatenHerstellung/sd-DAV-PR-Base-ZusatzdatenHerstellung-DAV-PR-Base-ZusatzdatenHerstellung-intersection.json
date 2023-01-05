@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "831bada2-e973-4198-abd2-0706dfc139ed-3",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/831bada2-e973-4198-abd2-0706dfc139ed-3",
+  "id" : "6aa49fd1-0e04-4955-a7ff-f98c439a2a02-3",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/6aa49fd1-0e04-4955-a7ff-f98c439a2a02-3",
   "name" : "IntersectionDAV_PR_Base_ZusatzdatenHerstellungAndDAV_PR_Base_ZusatzdatenHerstellung",
   "title" : "Intersection of DAV_PR_Base_ZusatzdatenHerstellung And DAV_PR_Base_ZusatzdatenHerstellung",
   "status" : "active",
-  "date" : "2022-12-23T10:03:07+01:00",
+  "date" : "2023-01-05T09:51:42+01:00",
   "snapshot" : {
     "element" : [{
       "path" : "MedicationDispense",
@@ -105,7 +105,8 @@
       "max" : "1",
       "type" : [{
         "code" : "Meta",
-        "profile" : ["http://fhir.abda.de/StructureDefinition/DAV-PR-ERP-AbgabedatenMeta"]
+        "profile" : ["http://fhir.abda.de/StructureDefinition/DAV-PR-ERP-AbgabedatenMeta",
+        "#sd-DAV-PR-ERP-AbgabedatenMeta-DAV-PR-ERP-AbgabedatenMeta"]
       }],
       "constraint" : [{
         "key" : "ele-1",

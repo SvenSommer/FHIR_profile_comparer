@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "018b6b15-13bf-4ae8-848d-69fb287a8769-3",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/018b6b15-13bf-4ae8-848d-69fb287a8769-3",
+  "id" : "bd5db5f1-967f-49bc-a866-a019c1b6b928-3",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/bd5db5f1-967f-49bc-a866-a019c1b6b928-3",
   "name" : "IntersectionDAV_EX_ERP_ZusatzdatenHerstellungAndDAV_EX_ERP_ZusatzdatenHerstellung",
   "title" : "Intersection of DAV_EX_ERP_ZusatzdatenHerstellung And DAV_EX_ERP_ZusatzdatenHerstellung",
   "status" : "active",
-  "date" : "2022-12-23T09:56:07+01:00",
+  "date" : "2023-01-05T09:49:48+01:00",
   "snapshot" : {
     "element" : [{
       "path" : "Extension",
@@ -122,7 +122,8 @@
       "max" : "1",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PR-Base-ZusatzdatenHerstellung"]
+        "targetProfile" : ["http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PR-Base-ZusatzdatenHerstellung",
+        "#sd-DAV-PR-Base-ZusatzdatenHerstellung-DAV-PR-Base-ZusatzdatenHerstellung"]
       }],
       "constraint" : [{
         "key" : "ele-1",

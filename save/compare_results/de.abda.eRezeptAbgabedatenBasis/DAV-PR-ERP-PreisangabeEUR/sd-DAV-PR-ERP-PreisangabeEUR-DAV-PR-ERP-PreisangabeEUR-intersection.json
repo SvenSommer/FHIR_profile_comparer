@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "2d5014da-cab1-406d-9ce8-882771beec2a-3",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/2d5014da-cab1-406d-9ce8-882771beec2a-3",
+  "id" : "385b4258-2c83-4483-ae5c-ae8f8b637c46-3",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/385b4258-2c83-4483-ae5c-ae8f8b637c46-3",
   "name" : "IntersectionDAV_PR_ERP_PreisangabeEURAndDAV_PR_ERP_PreisangabeEUR",
   "title" : "Intersection of DAV_PR_ERP_PreisangabeEUR And DAV_PR_ERP_PreisangabeEUR",
   "status" : "active",
-  "date" : "2022-12-23T10:06:08+01:00",
+  "date" : "2023-01-05T09:52:25+01:00",
   "snapshot" : {
     "element" : [{
       "path" : "Money",

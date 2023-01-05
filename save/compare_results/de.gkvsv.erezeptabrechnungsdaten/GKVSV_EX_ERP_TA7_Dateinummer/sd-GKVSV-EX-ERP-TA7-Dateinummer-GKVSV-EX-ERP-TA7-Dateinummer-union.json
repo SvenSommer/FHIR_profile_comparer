@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "d5702bfd-9627-43e0-9996-ba974240317e-2",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/d5702bfd-9627-43e0-9996-ba974240317e-2",
+  "id" : "d89d2990-b07a-4d72-97a6-cd471dbd837b-2",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/d89d2990-b07a-4d72-97a6-cd471dbd837b-2",
   "name" : "UnionGKVSV_EX_ERP_TA7_DateinummerAndGKVSV_EX_ERP_TA7_Dateinummer",
   "title" : "Union of GKVSV_EX_ERP_TA7_Dateinummer And GKVSV_EX_ERP_TA7_Dateinummer",
   "status" : "active",
-  "date" : "2022-12-23T10:52:11+01:00",
+  "date" : "2023-01-05T09:56:17+01:00",
   "snapshot" : {
     "element" : [{
       "path" : "Extension",

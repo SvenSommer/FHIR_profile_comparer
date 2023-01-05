@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "b8ea365a-bfb3-47c6-947f-8f44b3db2e3e-3",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/b8ea365a-bfb3-47c6-947f-8f44b3db2e3e-3",
+  "id" : "2894982d-8f57-4b40-b73f-eacc1e825721-3",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/2894982d-8f57-4b40-b73f-eacc1e825721-3",
   "name" : "IntersectionDAV_EX_ERP_MwStSatzAndDAV_EX_ERP_MwStSatz",
   "title" : "Intersection of DAV_EX_ERP_MwStSatz And DAV_EX_ERP_MwStSatz",
   "status" : "active",
-  "date" : "2022-12-23T09:50:05+01:00",
+  "date" : "2023-01-05T09:48:10+01:00",
   "snapshot" : {
     "element" : [{
       "path" : "Extension",

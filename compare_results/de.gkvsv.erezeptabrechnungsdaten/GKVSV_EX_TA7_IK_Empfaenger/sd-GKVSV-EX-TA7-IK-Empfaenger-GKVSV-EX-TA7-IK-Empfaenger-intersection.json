@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "1c29fb93-f2b1-4b7a-ae3f-5892c38e61c8-3",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/1c29fb93-f2b1-4b7a-ae3f-5892c38e61c8-3",
+  "id" : "5008c9e2-f824-4409-b862-a2179b53935c-3",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/5008c9e2-f824-4409-b862-a2179b53935c-3",
   "name" : "IntersectionGKVSV_EX_TA7_IK_EmpfaengerAndGKVSV_EX_TA7_IK_Empfaenger",
   "title" : "Intersection of GKVSV_EX_TA7_IK_Empfaenger And GKVSV_EX_TA7_IK_Empfaenger",
   "status" : "active",
-  "date" : "2022-12-23T10:55:00+01:00",
+  "date" : "2023-01-05T09:57:08+01:00",
   "snapshot" : {
     "element" : [{
       "path" : "Extension",

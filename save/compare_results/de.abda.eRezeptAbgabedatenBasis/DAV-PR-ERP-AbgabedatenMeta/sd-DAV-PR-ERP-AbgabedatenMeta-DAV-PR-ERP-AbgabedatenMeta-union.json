@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "99ec8625-8672-44d2-a690-080862e057ac-2",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/99ec8625-8672-44d2-a690-080862e057ac-2",
+  "id" : "69ed1f3a-2bc3-46a7-844b-28f94675d6e4-2",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/69ed1f3a-2bc3-46a7-844b-28f94675d6e4-2",
   "name" : "UnionDAV_PR_ERP_AbgabedatenMetaAndDAV_PR_ERP_AbgabedatenMeta",
   "title" : "Union of DAV_PR_ERP_AbgabedatenMeta And DAV_PR_ERP_AbgabedatenMeta",
   "status" : "active",
-  "date" : "2022-12-23T10:04:04+01:00",
+  "date" : "2023-01-05T09:51:56+01:00",
   "snapshot" : {
     "element" : [{
       "path" : "Meta",

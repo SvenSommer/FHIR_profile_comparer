@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "782d4017-ceba-4299-a354-8dbc99589b79-2",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/782d4017-ceba-4299-a354-8dbc99589b79-2",
+  "id" : "750203d4-ab6a-497c-b394-f0390100db9a-2",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/750203d4-ab6a-497c-b394-f0390100db9a-2",
   "name" : "UnionDAV_PR_Base_AbgabedatenBundleAndDAV_PR_Base_AbgabedatenBundle",
   "title" : "Union of DAV_PR_Base_AbgabedatenBundle And DAV_PR_Base_AbgabedatenBundle",
   "status" : "active",
-  "date" : "2022-12-23T09:57:29+01:00",
+  "date" : "2023-01-05T09:50:14+01:00",
   "snapshot" : {
     "element" : [{
       "path" : "Bundle",

@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "b4243406-6ff9-48c1-8113-9f66fda62675-3",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/b4243406-6ff9-48c1-8113-9f66fda62675-3",
+  "id" : "fb63fef1-e1d4-47d1-b458-3a6b1dff6fd3-3",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/fb63fef1-e1d4-47d1-b458-3a6b1dff6fd3-3",
   "name" : "IntersectionDAV_EX_ERP_ZusatzdatenFaktorkennzeichenAndDAV_EX_ERP_ZusatzdatenFaktorkennzeichen",
   "title" : "Intersection of DAV_EX_ERP_ZusatzdatenFaktorkennzeichen And DAV_EX_ERP_ZusatzdatenFaktorkennzeichen",
   "status" : "active",
-  "date" : "2022-12-23T14:44:19+01:00",
+  "date" : "2023-01-05T09:49:35+01:00",
   "snapshot" : {
     "element" : [{
       "path" : "Extension",

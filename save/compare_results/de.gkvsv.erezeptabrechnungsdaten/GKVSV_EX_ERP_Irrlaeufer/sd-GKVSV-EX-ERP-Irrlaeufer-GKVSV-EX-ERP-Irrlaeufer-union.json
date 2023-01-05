@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "dfa6e223-58d9-45be-a6a8-734b88c0f59b-2",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/dfa6e223-58d9-45be-a6a8-734b88c0f59b-2",
+  "id" : "59a790a7-1c63-4d2f-94b8-476ad4d75cf7-2",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/59a790a7-1c63-4d2f-94b8-476ad4d75cf7-2",
   "name" : "UnionGKVSV_EX_ERP_IrrlaeuferAndGKVSV_EX_ERP_Irrlaeufer",
   "title" : "Union of GKVSV_EX_ERP_Irrlaeufer And GKVSV_EX_ERP_Irrlaeufer",
   "status" : "active",
-  "date" : "2022-12-23T10:47:28+01:00",
+  "date" : "2023-01-05T09:54:50+01:00",
   "snapshot" : {
     "element" : [{
       "path" : "Extension",

@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "5b543fc9-c20a-4e44-882a-e8d86e375346-2",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/5b543fc9-c20a-4e44-882a-e8d86e375346-2",
+  "id" : "99f1003d-97dc-4c10-bfac-94e8b4f1941d-2",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/99f1003d-97dc-4c10-bfac-94e8b4f1941d-2",
   "name" : "UnionDAV_EX_ERP_ZusatzdatenEinheitAndDAV_EX_ERP_ZusatzdatenEinheit",
   "title" : "Union of DAV_EX_ERP_ZusatzdatenEinheit And DAV_EX_ERP_ZusatzdatenEinheit",
   "status" : "active",
-  "date" : "2022-12-23T09:54:47+01:00",
+  "date" : "2023-01-05T09:49:22+01:00",
   "snapshot" : {
     "element" : [{
       "path" : "Extension",

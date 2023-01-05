@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "5322fafe-88d1-4575-9e9f-1f89f287977d-3",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/5322fafe-88d1-4575-9e9f-1f89f287977d-3",
+  "id" : "c812ead9-8838-4bcd-99fd-071167501ba3-3",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/c812ead9-8838-4bcd-99fd-071167501ba3-3",
   "name" : "IntersectionDAV_EX_ERP_RezeptaenderungAndDAV_EX_ERP_Rezeptaenderung",
   "title" : "Intersection of DAV_EX_ERP_Rezeptaenderung And DAV_EX_ERP_Rezeptaenderung",
   "status" : "active",
-  "date" : "2022-12-23T09:51:02+01:00",
+  "date" : "2023-01-05T09:48:25+01:00",
   "snapshot" : {
     "element" : [{
       "path" : "Extension",

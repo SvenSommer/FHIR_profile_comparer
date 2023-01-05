@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "a6f01bd7-8bc5-46dc-b8c4-3f2c435f84e4-2",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/a6f01bd7-8bc5-46dc-b8c4-3f2c435f84e4-2",
+  "id" : "60b7d6f3-eb74-4d14-a17b-deae8c7916d8-2",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/60b7d6f3-eb74-4d14-a17b-deae8c7916d8-2",
   "name" : "UnionDAV_EX_ERP_ChargenbezeichnungAndDAV_EX_ERP_Chargenbezeichnung",
   "title" : "Union of DAV_EX_ERP_Chargenbezeichnung And DAV_EX_ERP_Chargenbezeichnung",
   "status" : "active",
-  "date" : "2022-12-23T14:42:57+01:00",
+  "date" : "2023-01-05T09:47:25+01:00",
   "snapshot" : {
     "element" : [{
       "path" : "Extension",

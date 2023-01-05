@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "db670495-b632-4cff-9617-5e7dbf7c9856-2",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/db670495-b632-4cff-9617-5e7dbf7c9856-2",
+  "id" : "51580904-3c3b-4aa9-ab9c-e1a8844908d1-2",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/51580904-3c3b-4aa9-ab9c-e1a8844908d1-2",
   "name" : "UnionGKVSV_EX_ERP_TA7_AbrechnungszeitraumAndGKVSV_EX_ERP_TA7_Abrechnungszeitraum",
   "title" : "Union of GKVSV_EX_ERP_TA7_Abrechnungszeitraum And GKVSV_EX_ERP_TA7_Abrechnungszeitraum",
   "status" : "active",
-  "date" : "2022-12-23T10:51:15+01:00",
+  "date" : "2023-01-05T09:56:01+01:00",
   "snapshot" : {
     "element" : [{
       "path" : "Extension",
