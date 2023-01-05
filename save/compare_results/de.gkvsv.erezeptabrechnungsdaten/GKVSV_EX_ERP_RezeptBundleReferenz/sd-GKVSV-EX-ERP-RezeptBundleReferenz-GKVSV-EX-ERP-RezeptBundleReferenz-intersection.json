@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "ce9e3d6b-d369-4121-9306-d2317e587796-3",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/ce9e3d6b-d369-4121-9306-d2317e587796-3",
+  "id" : "54f72f72-b990-4797-9d7b-e5063d3a8079-3",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/54f72f72-b990-4797-9d7b-e5063d3a8079-3",
   "name" : "IntersectionGKVSV_EX_ERP_RezeptBundleReferenzAndGKVSV_EX_ERP_RezeptBundleReferenz",
   "title" : "Intersection of GKVSV_EX_ERP_RezeptBundleReferenz And GKVSV_EX_ERP_RezeptBundleReferenz",
   "status" : "active",
-  "date" : "2022-12-23T10:50:18+01:00",
+  "date" : "2023-01-05T09:55:47+01:00",
   "snapshot" : {
     "element" : [{
       "path" : "Extension",
@@ -263,7 +263,8 @@
       },
       {
         "code" : "Reference",
-        "targetProfile" : ["https://fhir.gkvsv.de/StructureDefinition/GKVSV_PR_TA7_RezeptBundle"]
+        "targetProfile" : ["https://fhir.gkvsv.de/StructureDefinition/GKVSV_PR_TA7_RezeptBundle",
+        "#sd-GKVSV-PR-TA7-RezeptBundle-GKVSV-PR-TA7-RezeptBundle"]
       },
       {
         "code" : "SampledData",

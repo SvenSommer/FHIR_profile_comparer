@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "94a04708-4683-4250-904f-352a59ffd66b-2",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/94a04708-4683-4250-904f-352a59ffd66b-2",
+  "id" : "804369d4-8579-4fa5-b889-37ba082043aa-2",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/804369d4-8579-4fa5-b889-37ba082043aa-2",
   "name" : "UnionGKVSV_EX_ERP_LE_SitzAndGKVSV_EX_ERP_LE_Sitz",
   "title" : "Union of GKVSV_EX_ERP_LE_Sitz And GKVSV_EX_ERP_LE_Sitz",
   "status" : "active",
-  "date" : "2022-12-23T10:48:25+01:00",
+  "date" : "2023-01-05T09:55:08+01:00",
   "snapshot" : {
     "element" : [{
       "path" : "Extension",

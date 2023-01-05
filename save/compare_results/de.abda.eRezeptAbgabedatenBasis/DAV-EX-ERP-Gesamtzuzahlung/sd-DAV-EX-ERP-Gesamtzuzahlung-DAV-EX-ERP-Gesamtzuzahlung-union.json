@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "4dee75a6-0807-4217-a576-ec26032c64bd-2",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/4dee75a6-0807-4217-a576-ec26032c64bd-2",
+  "id" : "cf44f197-b284-4de5-b13f-b0033ac0a1ad-2",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/cf44f197-b284-4de5-b13f-b0033ac0a1ad-2",
   "name" : "UnionDAV_EX_ERP_GesamtzuzahlungAndDAV_EX_ERP_Gesamtzuzahlung",
   "title" : "Union of DAV_EX_ERP_Gesamtzuzahlung And DAV_EX_ERP_Gesamtzuzahlung",
   "status" : "active",
-  "date" : "2022-12-23T09:48:09+01:00",
+  "date" : "2023-01-05T09:47:40+01:00",
   "snapshot" : {
     "element" : [{
       "path" : "Extension",

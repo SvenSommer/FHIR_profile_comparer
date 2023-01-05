@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "6edc2640-5beb-463c-a080-61d16fb1cc3f-2",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/6edc2640-5beb-463c-a080-61d16fb1cc3f-2",
+  "id" : "7274dc7f-f669-4146-b7a4-36d5224b9376-2",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/7274dc7f-f669-4146-b7a4-36d5224b9376-2",
   "name" : "UnionDAV_EX_ERP_ZaehlerAndDAV_EX_ERP_Zaehler",
   "title" : "Union of DAV_EX_ERP_Zaehler And DAV_EX_ERP_Zaehler",
   "status" : "active",
-  "date" : "2022-12-23T09:52:54+01:00",
+  "date" : "2023-01-05T09:48:53+01:00",
   "snapshot" : {
     "element" : [{
       "path" : "Extension",

@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "4c6c9b10-d295-4d9f-a5ca-5dd6f14b50ab-3",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/4c6c9b10-d295-4d9f-a5ca-5dd6f14b50ab-3",
+  "id" : "b6933bff-3aac-48c0-b569-5979e05d952b-3",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/b6933bff-3aac-48c0-b569-5979e05d952b-3",
   "name" : "IntersectionDAV_PR_Base_ZusatzdatenEinheitAndDAV_PR_Base_ZusatzdatenEinheit",
   "title" : "Intersection of DAV_PR_Base_ZusatzdatenEinheit And DAV_PR_Base_ZusatzdatenEinheit",
   "status" : "active",
-  "date" : "2022-12-23T10:02:10+01:00",
+  "date" : "2023-01-05T09:51:28+01:00",
   "snapshot" : {
     "element" : [{
       "path" : "Invoice",
@@ -98,7 +98,8 @@
       "max" : "1",
       "type" : [{
         "code" : "Meta",
-        "profile" : ["http://fhir.abda.de/StructureDefinition/DAV-PR-ERP-AbgabedatenMeta"]
+        "profile" : ["http://fhir.abda.de/StructureDefinition/DAV-PR-ERP-AbgabedatenMeta",
+        "#sd-DAV-PR-ERP-AbgabedatenMeta-DAV-PR-ERP-AbgabedatenMeta"]
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -1947,7 +1948,8 @@
       "max" : "1",
       "type" : [{
         "code" : "Money",
-        "profile" : ["http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PR-ERP-PreisangabeEUR"]
+        "profile" : ["http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PR-ERP-PreisangabeEUR",
+        "#sd-DAV-PR-ERP-PreisangabeEUR-DAV-PR-ERP-PreisangabeEUR"]
       }],
       "constraint" : [{
         "key" : "ele-1",

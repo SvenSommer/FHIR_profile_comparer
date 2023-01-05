@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "7d6e5375-ca10-43da-a8f3-125f6f6d575e-2",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/7d6e5375-ca10-43da-a8f3-125f6f6d575e-2",
+  "id" : "efdcfcdb-0338-4fb7-8c83-be105311d94f-2",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/efdcfcdb-0338-4fb7-8c83-be105311d94f-2",
   "name" : "UnionDAV_EX_ERP_ZusatzdatenPreiskennzeichenAndDAV_EX_ERP_ZusatzdatenPreiskennzeichen",
   "title" : "Union of DAV_EX_ERP_ZusatzdatenPreiskennzeichen And DAV_EX_ERP_ZusatzdatenPreiskennzeichen",
   "status" : "active",
-  "date" : "2022-12-23T14:45:21+01:00",
+  "date" : "2023-01-05T09:50:01+01:00",
   "snapshot" : {
     "element" : [{
       "path" : "Extension",

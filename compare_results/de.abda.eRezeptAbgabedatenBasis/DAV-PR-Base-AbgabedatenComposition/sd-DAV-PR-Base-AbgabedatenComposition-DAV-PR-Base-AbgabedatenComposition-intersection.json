@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "f169351f-eabc-48a8-9cd3-2dfee2462917-3",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/f169351f-eabc-48a8-9cd3-2dfee2462917-3",
+  "id" : "a58777d1-e224-4cf9-a336-9eadb2c4e639-3",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/a58777d1-e224-4cf9-a336-9eadb2c4e639-3",
   "name" : "IntersectionDAV_PR_Base_AbgabedatenCompositionAndDAV_PR_Base_AbgabedatenComposition",
   "title" : "Intersection of DAV_PR_Base_AbgabedatenComposition And DAV_PR_Base_AbgabedatenComposition",
   "status" : "active",
-  "date" : "2022-12-23T09:58:25+01:00",
+  "date" : "2023-01-05T09:50:27+01:00",
   "snapshot" : {
     "element" : [{
       "path" : "Composition",
@@ -107,7 +107,8 @@
       "max" : "1",
       "type" : [{
         "code" : "Meta",
-        "profile" : ["http://fhir.abda.de/StructureDefinition/DAV-PR-ERP-AbgabedatenMeta"]
+        "profile" : ["http://fhir.abda.de/StructureDefinition/DAV-PR-ERP-AbgabedatenMeta",
+        "#sd-DAV-PR-ERP-AbgabedatenMeta-DAV-PR-ERP-AbgabedatenMeta"]
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -1145,7 +1146,8 @@
       "max" : "1",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PR-Base-Apotheke"]
+        "targetProfile" : ["http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PR-Base-Apotheke",
+        "#sd-DAV-PR-Base-Apotheke-DAV-PR-Base-Apotheke"]
       }],
       "constraint" : [{
         "key" : "ele-1",

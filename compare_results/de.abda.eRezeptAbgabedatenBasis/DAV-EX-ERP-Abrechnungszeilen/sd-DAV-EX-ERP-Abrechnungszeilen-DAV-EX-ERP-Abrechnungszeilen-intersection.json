@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "6ec4a5cf-cbcd-4a07-830c-01c7b023decf-3",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/6ec4a5cf-cbcd-4a07-830c-01c7b023decf-3",
+  "id" : "6d33954c-148f-415c-8f72-83afbb8323b3-3",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/6d33954c-148f-415c-8f72-83afbb8323b3-3",
   "name" : "IntersectionDAV_EX_ERP_AbrechnungszeilenAndDAV_EX_ERP_Abrechnungszeilen",
   "title" : "Intersection of DAV_EX_ERP_Abrechnungszeilen And DAV_EX_ERP_Abrechnungszeilen",
   "status" : "active",
-  "date" : "2022-12-23T09:46:45+01:00",
+  "date" : "2023-01-05T09:47:11+01:00",
   "snapshot" : {
     "element" : [{
       "path" : "Extension",
@@ -122,7 +122,8 @@
       "max" : "1",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PR-Base-Abrechnungszeilen"]
+        "targetProfile" : ["http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PR-Base-Abrechnungszeilen",
+        "#sd-DAV-PR-Base-Abrechnungszeilen-DAV-PR-Base-Abrechnungszeilen"]
       }],
       "constraint" : [{
         "key" : "ele-1",

@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "e5225186-2ac4-4236-9733-1c79f2587082-2",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/e5225186-2ac4-4236-9733-1c79f2587082-2",
+  "id" : "d7393404-68fe-4f13-8dac-244612c41166-2",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/d7393404-68fe-4f13-8dac-244612c41166-2",
   "name" : "UnionDAV_PR_Base_AbgabeinformationenAndDAV_PR_Base_Abgabeinformationen",
   "title" : "Union of DAV_PR_Base_Abgabeinformationen And DAV_PR_Base_Abgabeinformationen",
   "status" : "active",
-  "date" : "2022-12-23T09:59:21+01:00",
+  "date" : "2023-01-05T09:50:43+01:00",
   "snapshot" : {
     "element" : [{
       "path" : "MedicationDispense",

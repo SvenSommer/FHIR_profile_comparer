@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "c3eff869-6179-4981-8e4c-20c72b471b91-3",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/c3eff869-6179-4981-8e4c-20c72b471b91-3",
+  "id" : "504fa71b-c733-4bdb-950a-442791c40731-3",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/504fa71b-c733-4bdb-950a-442791c40731-3",
   "name" : "IntersectionDAV_EX_ERP_VertragskennzeichenAndDAV_EX_ERP_Vertragskennzeichen",
   "title" : "Intersection of DAV_EX_ERP_Vertragskennzeichen And DAV_EX_ERP_Vertragskennzeichen",
   "status" : "active",
-  "date" : "2022-12-23T09:51:58+01:00",
+  "date" : "2023-01-05T09:48:38+01:00",
   "snapshot" : {
     "element" : [{
       "path" : "Extension",

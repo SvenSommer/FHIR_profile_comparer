@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "bbf429c0-06f5-4f50-ae5d-85a0601b55d2-3",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/bbf429c0-06f5-4f50-ae5d-85a0601b55d2-3",
+  "id" : "76b39152-ad4c-46d5-935e-fd051636ab6b-3",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/76b39152-ad4c-46d5-935e-fd051636ab6b-3",
   "name" : "IntersectionGKVSV_EX_TA7_IK_KostentraegerAndGKVSV_EX_TA7_IK_Kostentraeger",
   "title" : "Intersection of GKVSV_EX_TA7_IK_Kostentraeger And GKVSV_EX_TA7_IK_Kostentraeger",
   "status" : "active",
-  "date" : "2022-12-23T10:55:56+01:00",
+  "date" : "2023-01-05T09:57:26+01:00",
   "snapshot" : {
     "element" : [{
       "path" : "Extension",

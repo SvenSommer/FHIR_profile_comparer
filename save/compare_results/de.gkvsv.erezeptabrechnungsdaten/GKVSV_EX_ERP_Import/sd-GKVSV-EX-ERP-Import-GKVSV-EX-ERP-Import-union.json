@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "b3f133b1-3736-4624-a6ca-929ca2d0d679-2",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/b3f133b1-3736-4624-a6ca-929ca2d0d679-2",
+  "id" : "90780114-fbfe-4f3d-a948-298789a517d9-2",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/90780114-fbfe-4f3d-a948-298789a517d9-2",
   "name" : "UnionGKVSV_EX_ERP_ImportAndGKVSV_EX_ERP_Import",
   "title" : "Union of GKVSV_EX_ERP_Import And GKVSV_EX_ERP_Import",
   "status" : "active",
-  "date" : "2022-12-23T10:45:36+01:00",
+  "date" : "2023-01-05T09:54:17+01:00",
   "snapshot" : {
     "element" : [{
       "path" : "Extension",

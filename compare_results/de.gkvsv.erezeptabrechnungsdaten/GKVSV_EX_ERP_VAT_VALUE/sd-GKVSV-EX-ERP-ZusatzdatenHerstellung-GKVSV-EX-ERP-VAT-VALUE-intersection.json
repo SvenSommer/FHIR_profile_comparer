@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "901ffaf0-9086-45a1-a409-2fbd7e03bb13-3",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/901ffaf0-9086-45a1-a409-2fbd7e03bb13-3",
+  "id" : "48019435-c91b-4108-8376-8ae67133ea9a-3",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/48019435-c91b-4108-8376-8ae67133ea9a-3",
   "name" : "IntersectionGKVSV_EX_ERP_ZusatzdatenHerstellungAndGKVSV_EX_ERP_VAT_VALUE",
   "title" : "Intersection of GKVSV_EX_ERP_ZusatzdatenHerstellung And GKVSV_EX_ERP_VAT_VALUE",
   "status" : "active",
-  "date" : "2022-12-23T10:54:04+01:00",
+  "date" : "2023-01-05T09:56:49+01:00",
   "snapshot" : {
     "element" : [{
       "path" : "Extension",
@@ -116,8 +116,8 @@
     },
     {
       "path" : "Extension.value[x]",
-      "short" : "Value of extension",
-      "definition" : "Value of extension - must be one of a constrained set of the data types (see [Extensibility] for a list).",
+      "short" : "left: Value of extension; right: Preisangabe in Euro",
+      "definition" : "left: Value of extension - must be one of a constrained set of the data types (see [Extensibility] for a list).; right: An amount of economic utility in some recognized currency.",
       "min" : 1,
       "max" : "0",
       "type" : [{
@@ -337,6 +337,10 @@
       {
         "identity" : "rim",
         "map" : "N/A"
+      },
+      {
+        "identity" : "rim",
+        "map" : "MO"
       }]
     },
     {
@@ -405,7 +409,7 @@
       "definition" : "Numerical value (with implicit precision).",
       "comment" : "Monetary values have their own rules for handling precision (refer to standard accounting text books).",
       "requirements" : "The amount of the currency. The value includes an implicit precision in the presentation of the value.",
-      "min" : 0,
+      "min" : 1,
       "max" : "1",
       "type" : [{
         "code" : "decimal"
@@ -435,7 +439,7 @@
       "definition" : "ISO 4217 Currency Code.",
       "comment" : "Note that FHIR strings SHALL NOT exceed 1MB in size",
       "requirements" : "A code indicating the currency, taken from ISO 4217.",
-      "min" : 0,
+      "min" : 1,
       "max" : "1",
       "type" : [{
         "code" : "code"

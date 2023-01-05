@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "18bcc177-de93-4267-80a1-a315296c1e74-3",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/18bcc177-de93-4267-80a1-a315296c1e74-3",
+  "id" : "73d96b98-4124-4a1f-9baf-cc259f5d64d0-3",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/73d96b98-4124-4a1f-9baf-cc259f5d64d0-3",
   "name" : "IntersectionGKVSV_EX_ERP_Import_PZNAndGKVSV_EX_ERP_Import_PZN",
   "title" : "Intersection of GKVSV_EX_ERP_Import_PZN And GKVSV_EX_ERP_Import_PZN",
   "status" : "active",
-  "date" : "2022-12-23T10:46:32+01:00",
+  "date" : "2023-01-05T09:54:33+01:00",
   "snapshot" : {
     "element" : [{
       "path" : "Extension",

@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "42a5e328-af98-4a51-9b30-4495c532c172-2",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/42a5e328-af98-4a51-9b30-4495c532c172-2",
+  "id" : "0147c55c-eee6-4fc7-b302-fd90a864afbb-2",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/0147c55c-eee6-4fc7-b302-fd90a864afbb-2",
   "name" : "UnionGKVSV_EX_ERP_VAT_VALUEAndGKVSV_EX_ERP_TA7_Rechnungsdatum",
   "title" : "Union of GKVSV_EX_ERP_VAT_VALUE And GKVSV_EX_ERP_TA7_Rechnungsdatum",
   "status" : "active",
-  "date" : "2022-12-23T10:53:07+01:00",
+  "date" : "2023-01-05T09:56:32+01:00",
   "snapshot" : {
     "element" : [{
       "path" : "Extension",
@@ -124,8 +124,8 @@
     },
     {
       "path" : "Extension.value[x]",
-      "short" : "left: Value of extension; right: Rechnungsdatum",
-      "definition" : "left: Value of extension - must be one of a constrained set of the data types (see [Extensibility] for a list).; right: Rechnungsdatum",
+      "short" : "left: Preisangabe in Euro; right: Rechnungsdatum",
+      "definition" : "left: An amount of economic utility in some recognized currency.; right: Rechnungsdatum",
       "min" : 1,
       "max" : "1",
       "type" : [{
@@ -148,6 +148,10 @@
       "mapping" : [{
         "identity" : "rim",
         "map" : "n/a"
+      },
+      {
+        "identity" : "rim",
+        "map" : "MO"
       },
       {
         "identity" : "rim",

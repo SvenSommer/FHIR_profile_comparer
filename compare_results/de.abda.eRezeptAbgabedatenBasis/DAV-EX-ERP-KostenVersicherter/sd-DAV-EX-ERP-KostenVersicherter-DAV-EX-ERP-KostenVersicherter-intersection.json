@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "8d8cab48-bbef-4c89-b639-8f2625c7b0ba-3",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/8d8cab48-bbef-4c89-b639-8f2625c7b0ba-3",
+  "id" : "d54ea2a6-a50d-4bff-ae8f-1556f026a344-3",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/d54ea2a6-a50d-4bff-ae8f-1556f026a344-3",
   "name" : "IntersectionDAV_EX_ERP_KostenVersicherterAndDAV_EX_ERP_KostenVersicherter",
   "title" : "Intersection of DAV_EX_ERP_KostenVersicherter And DAV_EX_ERP_KostenVersicherter",
   "status" : "active",
-  "date" : "2022-12-23T09:49:06+01:00",
+  "date" : "2023-01-05T09:47:56+01:00",
   "snapshot" : {
     "element" : [{
       "path" : "Extension",
