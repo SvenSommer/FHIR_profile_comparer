@@ -2,7 +2,7 @@
   "meta": {
     "content": {
       "name": "FHIR profil transition summary of kbv.ita.erp  v1.0.2 to v1.1.0",
-      "version": "1.0"
+      "version": "1.1"
     },
     "fileformat": {
       "type": "FHIR profiles version transition file",
