@@ -1,2 +1,0 @@
-#!/bin/bash
-java -jar /home/dev/.fhir/validators/validator_cli_v5_6_89-SNAPSHOT-at2.jar -compare -tx n/a -proxy 192.168.110.10:3128 -dest "./compare_results/de.abda.eRezeptAbgabedatenBasis/DAV-EX-ERP-Rezeptaenderung" -version 4.0.1 -ig de.abda.eRezeptAbgabedatenBasis#1.2.1 -ig de.abda.eRezeptAbgabedatenBasis#1.3.0 -left "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-EX-ERP-Rezeptaenderung|1.2.1" -right "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-EX-ERP-Rezeptaenderung|1.3.0"

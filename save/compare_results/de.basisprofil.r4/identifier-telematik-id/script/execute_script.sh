@@ -1,2 +1,0 @@
-#!/bin/bash
-java -jar /home/dev/.fhir/validators/validator_cli_v5_6_89-SNAPSHOT-at2.jar -compare -tx n/a -proxy 192.168.110.10:3128 -dest "./compare_results/de.basisprofil.r4/identifier-telematik-id" -version 4.0.1 -ig de.gematik.erezept-workflow.r4#1.1.1 -ig de.basisprofil.r4#1.3.2 -left "https://gematik.de/fhir/StructureDefinition/BaseTelematikID|1.1.1" -right "http://fhir.de/StructureDefinition/identifier-telematik-id|1.3.2"
