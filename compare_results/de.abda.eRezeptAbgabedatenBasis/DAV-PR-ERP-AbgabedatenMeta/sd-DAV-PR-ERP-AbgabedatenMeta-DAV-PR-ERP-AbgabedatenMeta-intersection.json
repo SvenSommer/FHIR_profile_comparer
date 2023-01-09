@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "69ed1f3a-2bc3-46a7-844b-28f94675d6e4-3",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/69ed1f3a-2bc3-46a7-844b-28f94675d6e4-3",
+  "id" : "4b46b3bc-c8bf-4bb3-920a-7fee9b15f2e6-3",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/4b46b3bc-c8bf-4bb3-920a-7fee9b15f2e6-3",
   "name" : "IntersectionDAV_PR_ERP_AbgabedatenMetaAndDAV_PR_ERP_AbgabedatenMeta",
   "title" : "Intersection of DAV_PR_ERP_AbgabedatenMeta And DAV_PR_ERP_AbgabedatenMeta",
   "status" : "active",
-  "date" : "2023-01-05T09:51:56+01:00",
+  "date" : "2023-01-09T07:23:58+01:00",
   "snapshot" : {
     "element" : [{
       "path" : "Meta",

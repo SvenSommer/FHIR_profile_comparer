@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "d7393404-68fe-4f13-8dac-244612c41166-11",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/d7393404-68fe-4f13-8dac-244612c41166-11",
+  "id" : "3e66a696-caa6-4570-a3a3-2237783036a3-11",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/3e66a696-caa6-4570-a3a3-2237783036a3-11",
   "name" : "UnionIdentifierIknrAndIdentifierIknr",
   "title" : "Union of Identifier-Profil für die Abbildung eines Institutionskennzeichens (IKNR) And Identifier-Profil für die Abbildung eines Institutionskennzeichens (IKNR)",
   "status" : "draft",
-  "date" : "2023-01-05T09:50:43+01:00",
+  "date" : "2023-01-09T07:18:53+01:00",
   "snapshot" : {
     "element" : [{
       "path" : "Identifier",

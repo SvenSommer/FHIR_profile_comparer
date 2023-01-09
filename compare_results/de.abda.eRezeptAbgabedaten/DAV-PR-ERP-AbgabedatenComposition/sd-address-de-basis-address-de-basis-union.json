@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "04e066d1-f93e-47fa-bbf0-3c6bf866e528-14",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/04e066d1-f93e-47fa-bbf0-3c6bf866e528-14",
+  "id" : "84b34103-5b91-4aeb-b40d-0efc28c86bba-14",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/84b34103-5b91-4aeb-b40d-0efc28c86bba-14",
   "name" : "UnionAddressDeBasisAndAddressDeBasis",
   "title" : "Union of Adresse, deutsches Basisprofil And Adresse, deutsches Basisprofil",
   "status" : "draft",
-  "date" : "2023-01-05T09:52:52+01:00",
+  "date" : "2023-01-09T07:27:59+01:00",
   "snapshot" : {
     "element" : [{
       "path" : "Address",

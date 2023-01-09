@@ -4,6 +4,9 @@ import os
 import json
 import shutil
 transition_directory="transitionfiles"
+compare_dir = "compare_results"
+save_dir = "save"
+summary_dir = "_summary"
 files = os.listdir(transition_directory)
 validator_path = "/home/dev/.fhir/validators/validator_cli_v5_6_89-SNAPSHOT-at2.jar"
 ressources_unable_to_process = {'OperationDefinition', 'CodeSystem','NamingSystem','ValueSet'}
@@ -18,6 +21,23 @@ def getProfileName(url):
     url_split = os.path.split(url)
     profileName = url_split[-1]
     return profileName
+
+def copy_compare_results():
+    shutil.rmtree(save_dir)
+    shutil.copytree(compare_dir, os.path.join(save_dir, compare_dir), symlinks=False, ignore=None, ignore_dangling_symlinks=False, dirs_exist_ok=False)
+
+def copy_summary_content():
+    for top_fhir_dir in os.listdir(compare_dir):
+        current_dir = os.path.join(compare_dir, top_fhir_dir)
+        #1. Delete all dirs except _summary
+        for profile_dir in os.listdir(current_dir):
+            if (profile_dir != summary_dir):
+                shutil.rmtree(os.path.join(current_dir, profile_dir))
+        #2. Copy content of _summary one level up
+        for new_profile_dir in os.listdir(os.path.join(current_dir, summary_dir)):
+            shutil.move(os.path.join(current_dir, summary_dir, new_profile_dir), current_dir)
+
+        shutil.rmtree(os.path.join(current_dir, summary_dir))
 
 # Loop to print each filename separately
 for filename in files:
@@ -56,3 +76,12 @@ for filename in files:
             except KeyboardInterrupt:
                 print('interrupted!')
                 break
+
+# Copy the results to save folder
+copy_compare_results()
+
+# Run Compress script
+os.system("compress_result.py")
+
+# Copy _summary-content to level up
+copy_summary_content()

@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "5644485d-cf5d-4bd9-9424-d6e2832f6b80-2",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/5644485d-cf5d-4bd9-9424-d6e2832f6b80-2",
+  "id" : "ce986101-8202-4e55-9bcb-aa4f51c20094-2",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/ce986101-8202-4e55-9bcb-aa4f51c20094-2",
   "name" : "UnionExpiryDateAndGEM_ERP_EX_ExpiryDate",
   "title" : "Union of Presciption expiry date And Presciption expiry date",
   "status" : "draft",
-  "date" : "2023-01-05T09:40:31+01:00",
+  "date" : "2023-01-09T06:39:23+01:00",
   "snapshot" : {
     "element" : [{
       "path" : "Extension",

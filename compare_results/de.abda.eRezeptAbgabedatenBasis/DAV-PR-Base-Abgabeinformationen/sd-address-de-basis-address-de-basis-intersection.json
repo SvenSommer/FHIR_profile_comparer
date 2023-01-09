@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "d7393404-68fe-4f13-8dac-244612c41166-15",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/d7393404-68fe-4f13-8dac-244612c41166-15",
+  "id" : "3e66a696-caa6-4570-a3a3-2237783036a3-15",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/3e66a696-caa6-4570-a3a3-2237783036a3-15",
   "name" : "IntersectionAddressDeBasisAndAddressDeBasis",
   "title" : "Intersection of Adresse, deutsches Basisprofil And Adresse, deutsches Basisprofil",
   "status" : "draft",
-  "date" : "2023-01-05T09:50:43+01:00",
+  "date" : "2023-01-09T07:18:53+01:00",
   "snapshot" : {
     "element" : [{
       "path" : "Address",

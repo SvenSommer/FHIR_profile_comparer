@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "289b7775-d40f-438c-9a9f-e859fcf0c197-6",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/289b7775-d40f-438c-9a9f-e859fcf0c197-6",
+  "id" : "5b12b7e5-3863-4a27-9027-a3e95959ea5b-6",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/5b12b7e5-3863-4a27-9027-a3e95959ea5b-6",
   "name" : "IntersectionGem_erxTaskAndGEM_ERP_PR_Task",
   "title" : "Intersection of Task for Management of ePrescription Workflow And Task for Management of ePrescription Workflow",
   "status" : "draft",
-  "date" : "2023-01-05T09:35:04+01:00",
+  "date" : "2023-01-09T06:21:10+01:00",
   "snapshot" : {
     "element" : [{
       "path" : "Task",

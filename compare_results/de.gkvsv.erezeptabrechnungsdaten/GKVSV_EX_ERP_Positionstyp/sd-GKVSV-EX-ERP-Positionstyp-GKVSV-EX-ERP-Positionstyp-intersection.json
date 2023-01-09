@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "7a61d25b-e45e-4475-abef-5bd737be5f89-3",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/7a61d25b-e45e-4475-abef-5bd737be5f89-3",
+  "id" : "5478328b-b88e-48aa-a284-be51bb3a0fd5-3",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/5478328b-b88e-48aa-a284-be51bb3a0fd5-3",
   "name" : "IntersectionGKVSV_EX_ERP_PositionstypAndGKVSV_EX_ERP_Positionstyp",
   "title" : "Intersection of GKVSV_EX_ERP_Positionstyp And GKVSV_EX_ERP_Positionstyp",
   "status" : "active",
-  "date" : "2023-01-05T09:55:31+01:00",
+  "date" : "2023-01-09T07:41:39+01:00",
   "snapshot" : {
     "element" : [{
       "path" : "Extension",

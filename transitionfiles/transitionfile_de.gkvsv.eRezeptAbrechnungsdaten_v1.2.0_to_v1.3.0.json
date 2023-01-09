@@ -2,7 +2,7 @@
   "meta": {
     "content": {
       "name": "FHIR profil transition summary of de.gkvsv.eRezeptAbrechnungsdaten v1.2.0 to v1.3.0",
-      "version": "1.0"
+      "version": "1.1"
     },
     "fileformat": {
       "type": "FHIR profiles version transition file",

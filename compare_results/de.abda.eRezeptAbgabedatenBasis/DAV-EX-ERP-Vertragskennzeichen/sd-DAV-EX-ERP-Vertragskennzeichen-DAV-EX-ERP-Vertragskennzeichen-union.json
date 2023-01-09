@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "504fa71b-c733-4bdb-950a-442791c40731-2",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/504fa71b-c733-4bdb-950a-442791c40731-2",
+  "id" : "cea74fe3-d696-481c-ba44-a6020c7910e8-2",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/cea74fe3-d696-481c-ba44-a6020c7910e8-2",
   "name" : "UnionDAV_EX_ERP_VertragskennzeichenAndDAV_EX_ERP_Vertragskennzeichen",
   "title" : "Union of DAV_EX_ERP_Vertragskennzeichen And DAV_EX_ERP_Vertragskennzeichen",
   "status" : "active",
-  "date" : "2023-01-05T09:48:38+01:00",
+  "date" : "2023-01-09T07:09:42+01:00",
   "snapshot" : {
     "element" : [{
       "path" : "Extension",
