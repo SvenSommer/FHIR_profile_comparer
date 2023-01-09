@@ -36,7 +36,8 @@ def copy_summary_content():
         #2. Copy content of _summary one level up
         for new_profile_dir in os.listdir(os.path.join(current_dir, summary_dir)):
             shutil.move(os.path.join(current_dir, summary_dir, new_profile_dir), current_dir)
-            shutil.rmtree(os.path.join(current_dir, summary_dir))
+
+        shutil.rmtree(os.path.join(current_dir, summary_dir))
 
 # Loop to print each filename separately
 for filename in files:
