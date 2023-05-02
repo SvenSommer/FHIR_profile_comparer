@@ -1,0 +1,161 @@
+﻿{
+  "index-version" : 2,
+  "files" : [
+    {
+      "filename" : "CodeSystem-DAV-PKV-CS-ERP-AbrechnungsTyp.json",
+      "resourceType" : "CodeSystem",
+      "id" : "DAV-PKV-CS-ERP-AbrechnungsTyp",
+      "url" : "http://fhir.abda.de/eRezeptAbgabedaten/CodeSystem/DAV-PKV-CS-ERP-AbrechnungsTyp",
+      "version" : "1.2",
+      "content" : "complete"
+    },
+    {
+      "filename" : "CodeSystem-DAV-PKV-CS-ERP-ArtRezeptaenderung.json",
+      "resourceType" : "CodeSystem",
+      "id" : "DAV-PKV-CS-ERP-ArtRezeptaenderung",
+      "url" : "http://fhir.abda.de/eRezeptAbgabedaten/CodeSystem/DAV-PKV-CS-ERP-ArtRezeptaenderung",
+      "version" : "1.2",
+      "content" : "complete"
+    },
+    {
+      "filename" : "CodeSystem-DAV-PKV-CS-ERP-KostenVersicherterKategorie.json",
+      "resourceType" : "CodeSystem",
+      "id" : "DAV-PKV-CS-ERP-KostenVersicherterKategorie",
+      "url" : "http://fhir.abda.de/eRezeptAbgabedaten/CodeSystem/DAV-PKV-CS-ERP-KostenVersicherterKategorie",
+      "version" : "1.2",
+      "content" : "complete"
+    },
+    {
+      "filename" : "CodeSystem-DAV-PKV-CS-ERP-ZusatzattributSchluesselAutidemAustausch.json",
+      "resourceType" : "CodeSystem",
+      "id" : "DAV-PKV-CS-ERP-ZusatzattributSchluesselAutidemAustausch",
+      "url" : "http://fhir.abda.de/eRezeptAbgabedaten/CodeSystem/DAV-PKV-CS-ERP-ZusatzattributSchluesselAutidemAustausch",
+      "version" : "1.2",
+      "content" : "complete"
+    },
+    {
+      "filename" : "CodeSystem-DAV-PKV-CS-ERP-ZusatzdatenEinheitFaktorkennzeichen.json",
+      "resourceType" : "CodeSystem",
+      "id" : "DAV-PKV-CS-ERP-ZusatzdatenEinheitFaktorkennzeichen",
+      "url" : "http://fhir.abda.de/eRezeptAbgabedaten/CodeSystem/DAV-PKV-CS-ERP-ZusatzdatenEinheitFaktorkennzeichen",
+      "version" : "1.2",
+      "content" : "complete"
+    },
+    {
+      "filename" : "Extension-DAV-PKV-EX-ERP-AbrechnungsTyp.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "DAV-PKV-EX-ERP-AbrechnungsTyp",
+      "url" : "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PKV-EX-ERP-AbrechnungsTyp",
+      "version" : "1.2",
+      "kind" : "complex-type",
+      "type" : "Extension"
+    },
+    {
+      "filename" : "Extension-DAV-PKV-EX-ERP-Bankverbindung.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "DAV-PKV-EX-ERP-Bankverbindung",
+      "url" : "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PKV-EX-ERP-Bankverbindung",
+      "version" : "1.2",
+      "kind" : "complex-type",
+      "type" : "Extension"
+    },
+    {
+      "filename" : "Profile-DAV-PKV-PR-ERP-AbgabedatenBundle.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "DAV-PKV-PR-ERP-AbgabedatenBundle",
+      "url" : "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PKV-PR-ERP-AbgabedatenBundle",
+      "version" : "1.2",
+      "kind" : "resource",
+      "type" : "Bundle"
+    },
+    {
+      "filename" : "Profile-DAV-PKV-PR-ERP-AbgabedatenComposition.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "DAV-PKV-PR-ERP-AbgabedatenComposition",
+      "url" : "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PKV-PR-ERP-AbgabedatenComposition",
+      "version" : "1.2",
+      "kind" : "resource",
+      "type" : "Composition"
+    },
+    {
+      "filename" : "Profile-DAV-PKV-PR-ERP-Abgabeinformationen.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "DAV-PKV-PR-ERP-Abgabeinformationen",
+      "url" : "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PKV-PR-ERP-Abgabeinformationen",
+      "version" : "1.2",
+      "kind" : "resource",
+      "type" : "MedicationDispense"
+    },
+    {
+      "filename" : "Profile-DAV-PKV-PR-ERP-Abrechnungszeilen.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "DAV-PKV-PR-ERP-Abrechnungszeilen",
+      "url" : "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PKV-PR-ERP-Abrechnungszeilen",
+      "version" : "1.2",
+      "kind" : "resource",
+      "type" : "Invoice"
+    },
+    {
+      "filename" : "Profile-DAV-PKV-PR-ERP-Apotheke.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "DAV-PKV-PR-ERP-Apotheke",
+      "url" : "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PKV-PR-ERP-Apotheke",
+      "version" : "1.2",
+      "kind" : "resource",
+      "type" : "Organization"
+    },
+    {
+      "filename" : "Profile-DAV-PKV-PR-ERP-ZusatzdatenEinheit.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "DAV-PKV-PR-ERP-ZusatzdatenEinheit",
+      "url" : "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PKV-PR-ERP-ZusatzdatenEinheit",
+      "version" : "1.2",
+      "kind" : "resource",
+      "type" : "Invoice"
+    },
+    {
+      "filename" : "Profile-DAV-PKV-PR-ERP-ZusatzdatenHerstellung.json",
+      "resourceType" : "StructureDefinition",
+      "id" : "DAV-PKV-PR-ERP-ZusatzdatenHerstellung",
+      "url" : "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PKV-PR-ERP-ZusatzdatenHerstellung",
+      "version" : "1.2",
+      "kind" : "resource",
+      "type" : "MedicationDispense"
+    },
+    {
+      "filename" : "ValueSet-DAV-PKV-VS-ERP-AbrechnungsTyp.json",
+      "resourceType" : "ValueSet",
+      "id" : "DAV-PKV-VS-ERP-AbrechnungsTyp",
+      "url" : "http://fhir.abda.de/eRezeptAbgabedaten/ValueSet/DAV-PKV-VS-ERP-AbrechnungsTyp",
+      "version" : "1.2"
+    },
+    {
+      "filename" : "ValueSet-DAV-PKV-VS-ERP-ArtRezeptaenderung.json",
+      "resourceType" : "ValueSet",
+      "id" : "DAV-PKV-VS-ERP-ArtRezeptaenderung",
+      "url" : "http://fhir.abda.de/eRezeptAbgabedaten/ValueSet/DAV-PKV-VS-ERP-ArtRezeptaenderung",
+      "version" : "1.2"
+    },
+    {
+      "filename" : "ValueSet-DAV-PKV-VS-ERP-KostenVersicherterKategorie.json",
+      "resourceType" : "ValueSet",
+      "id" : "DAV-PKV-VS-ERP-KostenVersicherterKategorie",
+      "url" : "http://fhir.abda.de/eRezeptAbgabedaten/ValueSet/DAV-PKV-VS-ERP-KostenVersicherterKategorie",
+      "version" : "1.2"
+    },
+    {
+      "filename" : "ValueSet-DAV-PKV-VS-ERP-ZusatzattributSchluesselAutidemAustausch.json",
+      "resourceType" : "ValueSet",
+      "id" : "DAV-PKV-VS-ERP-ZusatzattributSchluesselAutidemAustausch",
+      "url" : "http://fhir.abda.de/eRezeptAbgabedaten/ValueSet/DAV-PKV-VS-ERP-ZusatzattributSchluesselAutidemAustausch",
+      "version" : "1.2"
+    },
+    {
+      "filename" : "ValueSet-DAV-PKV-VS-ERP-ZusatzdatenEinheitFaktorkennzeichen.json",
+      "resourceType" : "ValueSet",
+      "id" : "DAV-PKV-VS-ERP-ZusatzdatenEinheitFaktorkennzeichen",
+      "url" : "http://fhir.abda.de/eRezeptAbgabedaten/ValueSet/DAV-PKV-VS-ERP-ZusatzdatenEinheitFaktorkennzeichen",
+      "version" : "1.2"
+    }
+  ]
+}
