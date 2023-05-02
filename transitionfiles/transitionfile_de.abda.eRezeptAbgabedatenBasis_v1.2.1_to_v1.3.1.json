@@ -1,7 +1,7 @@
 {
   "meta": {
     "content": {
-      "name": "FHIR profil transition summary of de.abda.eRezeptAbgabedatenBasis v1.2.1 to v1.3.0",
+      "name": "FHIR profil transition summary of de.abda.eRezeptAbgabedatenBasis v1.2.1 to v1.3.1",
       "version": "1.0"
     },
     "fileformat": {
@@ -26,13 +26,13 @@
     {
       "package": {
         "name": "de.abda.eRezeptAbgabedatenBasis",
-        "version": "1.3.0"
+        "version": "1.3.1"
       }
     },
     {
       "package": {
         "name": "de.abda.eRezeptAbgabedaten",
-        "version": "1.3.0"
+        "version": "1.3.1"
       }
     }
   ],
@@ -52,7 +52,7 @@
           "ressource": {
             "name": "DAV_CS_ERP_CompositionTypes",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/CodeSystem/DAV-CS-ERP-CompositionTypes",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "CodeSystem",
             "package": "de.abda.eRezeptAbgabedatenBasis"
           }
@@ -74,7 +74,7 @@
           "ressource": {
             "name": "DAV_CS_ERP_InvoiceTyp",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/CodeSystem/DAV-CS-ERP-InvoiceTyp",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "CodeSystem",
             "package": "de.abda.eRezeptAbgabedatenBasis"
           }
@@ -96,7 +96,7 @@
           "ressource": {
             "name": "DAV_CS_ERP_MedicationDispenseTyp",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/CodeSystem/DAV-CS-ERP-MedicationDispenseTyp",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "CodeSystem",
             "package": "de.abda.eRezeptAbgabedatenBasis"
           }
@@ -118,7 +118,7 @@
           "ressource": {
             "name": "DAV_CS_ERP_RueckspracheArzt",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/CodeSystem/DAV-CS-ERP-RueckspracheArzt",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "CodeSystem",
             "package": "de.abda.eRezeptAbgabedatenBasis"
           }
@@ -140,7 +140,7 @@
           "ressource": {
             "name": "DAV_CS_ERP_ZusatzattributFAMSchluesselAbgaberangfolge",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/CodeSystem/DAV-CS-ERP-ZusatzattributFAMSchluesselAbgaberangfolge",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "CodeSystem",
             "package": "de.abda.eRezeptAbgabedaten"
           }
@@ -162,7 +162,7 @@
           "ressource": {
             "name": "DAV_CS_ERP_ZusatzattributFAMSchluesselMarkt",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/CodeSystem/DAV-CS-ERP-ZusatzattributFAMSchluesselMarkt",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "CodeSystem",
             "package": "de.abda.eRezeptAbgabedaten"
           }
@@ -184,7 +184,7 @@
           "ressource": {
             "name": "DAV_CS_ERP_ZusatzattributGruppe",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/CodeSystem/DAV-CS-ERP-ZusatzattributGruppe",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "CodeSystem",
             "package": "de.abda.eRezeptAbgabedatenBasis"
           }
@@ -206,7 +206,7 @@
           "ressource": {
             "name": "DAV_CS_ERP_ZusatzattributFAMSchluesselImportFAM",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/CodeSystem/DAV-CS-ERP-ZusatzattributFAMSchluesselImportFAM",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "CodeSystem",
             "package": ""
           }
@@ -228,7 +228,7 @@
           "ressource": {
             "name": "DAV_CS_ERP_ZusatzattributSchluesselMehrkostenuebernahme",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/CodeSystem/DAV-CS-ERP-ZusatzattributSchluesselMehrkostenuebernahme",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "CodeSystem",
             "package": "de.abda.eRezeptAbgabedaten"
           }
@@ -250,7 +250,7 @@
           "ressource": {
             "name": "DAV_CS_ERP_ZusatzattributSchluesselZuzahlungsstatus",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/CodeSystem/DAV-CS-ERP-ZusatzattributSchluesselZuzahlungsstatus",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "CodeSystem",
             "package": "de.abda.eRezeptAbgabedaten"
           }
@@ -272,7 +272,7 @@
           "ressource": {
             "name": "DAV_CS_ERP_ZusatzattributTarifkennzeichen",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/CodeSystem/DAV-CS-ERP-ZusatzattributTarifkennzeichen",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "CodeSystem",
             "package": "de.abda.eRezeptAbgabedaten"
           }
@@ -294,7 +294,7 @@
           "ressource": {
             "name": "DAV_CS_ERP_ZusatzdatenEinheitFaktorkennzeichen",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/CodeSystem/DAV-CS-ERP-ZusatzdatenEinheitFaktorkennzeichen",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "CodeSystem",
             "package": "de.abda.eRezeptAbgabedaten"
           }
@@ -316,7 +316,7 @@
           "ressource": {
             "name": "DAV_CS_ERP_ZusatzdatenHerstellungHerstellerSchluessel",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/CodeSystem/DAV-CS-ERP-ZusatzdatenHerstellungHerstellerSchluessel",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "CodeSystem",
             "package": "de.abda.eRezeptAbgabedaten"
           }
@@ -338,7 +338,7 @@
           "ressource": {
             "name": "DAV_EX_ERP_Abrechnungszeilen",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-EX-ERP-Abrechnungszeilen",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "Extension",
             "package": "de.abda.eRezeptAbgabedatenBasis"
           }
@@ -360,7 +360,7 @@
           "ressource": {
             "name": "DAV_EX_ERP_Chargenbezeichnung",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-EX-ERP-Chargenbezeichnung",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "Extension",
             "package": "de.abda.eRezeptAbgabedaten"
           }
@@ -382,7 +382,7 @@
           "ressource": {
             "name": "DAV_EX_ERP_Gesamtzuzahlung",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-EX-ERP-Gesamtzuzahlung",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "Extension",
             "package": "de.abda.eRezeptAbgabedatenBasis"
           }
@@ -404,7 +404,7 @@
           "ressource": {
             "name": "DAV_EX_ERP_KostenVersicherter",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-EX-ERP-KostenVersicherter",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "Extension",
             "package": "de.abda.eRezeptAbgabedatenBasis"
           }
@@ -426,7 +426,7 @@
           "ressource": {
             "name": "DAV_EX_ERP_MwStSatz",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-EX-ERP-MwStSatz",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "Extension",
             "package": "de.abda.eRezeptAbgabedatenBasis"
           }
@@ -448,7 +448,7 @@
           "ressource": {
             "name": "DAV_EX_ERP_Rezeptaenderung",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-EX-ERP-Rezeptaenderung",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "Extension",
             "package": "de.abda.eRezeptAbgabedatenBasis"
           }
@@ -470,7 +470,7 @@
           "ressource": {
             "name": "DAV_EX_ERP_Vertragskennzeichen",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-EX-ERP-Vertragskennzeichen",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "Extension",
             "package": "de.abda.eRezeptAbgabedatenBasis"
           }
@@ -492,7 +492,7 @@
           "ressource": {
             "name": "DAV_EX_ERP_Zaehler",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-EX-ERP-Zaehler",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "Extension",
             "package": "de.abda.eRezeptAbgabedatenBasis"
           }
@@ -514,7 +514,7 @@
           "ressource": {
             "name": "DAV_EX_ERP_Zusatzattribute",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-EX-ERP-Zusatzattribute",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "Extension",
             "package": "de.abda.eRezeptAbgabedatenBasis"
           }
@@ -536,7 +536,7 @@
           "ressource": {
             "name": "DAV_EX_ERP_ZusatzdatenEinheit",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-EX-ERP-ZusatzdatenEinheit",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "Extension",
             "package": "de.abda.eRezeptAbgabedatenBasis"
           }
@@ -558,7 +558,7 @@
           "ressource": {
             "name": "DAV_EX_ERP_ZusatzdatenFaktorkennzeichen",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-EX-ERP-ZusatzdatenFaktorkennzeichen",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "Extension",
             "package": "de.abda.eRezeptAbgabedaten"
           }
@@ -580,7 +580,7 @@
           "ressource": {
             "name": "DAV_EX_ERP_ZusatzdatenHerstellung",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-EX-ERP-ZusatzdatenHerstellung",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "Extension",
             "package": "de.abda.eRezeptAbgabedatenBasis"
           }
@@ -602,7 +602,7 @@
           "ressource": {
             "name": "DAV_EX_ERP_ZusatzdatenPreiskennzeichen",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-EX-ERP-ZusatzdatenPreiskennzeichen",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "Extension",
             "package": "de.abda.eRezeptAbgabedaten"
           }
@@ -624,7 +624,7 @@
           "ressource": {
             "name": "DAV_PR_Base_AbgabedatenBundle",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PR-Base-AbgabedatenBundle",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "Profile on Bundle",
             "package": "de.abda.eRezeptAbgabedatenBasis"
           }
@@ -646,7 +646,7 @@
           "ressource": {
             "name": "DAV_PR_Base_AbgabedatenComposition",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PR-Base-AbgabedatenComposition",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "Profile on Composition",
             "package": "de.abda.eRezeptAbgabedatenBasis"
           }
@@ -668,7 +668,7 @@
           "ressource": {
             "name": "DAV_PR_Base_Abgabeinformationen",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PR-Base-Abgabeinformationen",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "Profile on MedicationDispense",
             "package": "de.abda.eRezeptAbgabedatenBasis"
           }
@@ -690,7 +690,7 @@
           "ressource": {
             "name": "DAV_PR_Base_Abrechnungszeilen",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PR-Base-Abrechnungszeilen",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "Profile on Invoice",
             "package": "de.abda.eRezeptAbgabedatenBasis"
           }
@@ -712,7 +712,7 @@
           "ressource": {
             "name": "DAV_PR_Base_Apotheke",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PR-Base-Apotheke",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "Profile on Organization",
             "package": "de.abda.eRezeptAbgabedatenBasis"
           }
@@ -734,7 +734,7 @@
           "ressource": {
             "name": "DAV_PR_Base_ZusatzdatenEinheit",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PR-Base-ZusatzdatenEinheit",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "Profile on Invoice",
             "package": "de.abda.eRezeptAbgabedatenBasis"
           }
@@ -756,7 +756,7 @@
           "ressource": {
             "name": "DAV_PR_Base_ZusatzdatenHerstellung",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PR-Base-ZusatzdatenHerstellung",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "Profile on MedicationDispense",
             "package": "de.abda.eRezeptAbgabedatenBasis"
           }
@@ -778,7 +778,7 @@
           "ressource": {
             "name": "DAV_PR_ERP_AbgabedatenMeta",
             "url": "http://fhir.abda.de/StructureDefinition/DAV-PR-ERP-AbgabedatenMeta",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "Profile on Meta",
             "package": "de.abda.eRezeptAbgabedatenBasis"
           }
@@ -800,7 +800,7 @@
           "ressource": {
             "name": "DAV_PR_ERP_DAVHerstellerSchluessel",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PR-ERP-DAVHerstellerSchluessel",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "Profile on Identifier",
             "package": "de.abda.eRezeptAbgabedatenBasis"
           }
@@ -822,7 +822,7 @@
           "ressource": {
             "name": "DAV_PR_ERP_PreisangabeEUR",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PR-ERP-PreisangabeEUR",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "Profile on Money",
             "package": "de.abda.eRezeptAbgabedatenBasis"
           }
@@ -844,7 +844,7 @@
           "ressource": {
             "name": "DAV_VS_ERP_DEUEV_Anlage_8",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/ValueSet/DAV-VS-ERP-DEUEV-Anlage-8",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "ValueSet",
             "package": "de.abda.eRezeptAbgabedatenBasis"
           }
@@ -866,7 +866,7 @@
           "ressource": {
             "name": "DAV_VS_ERP_InvoiceTyp",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/ValueSet/DAV-VS-ERP-InvoiceTyp",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "ValueSet",
             "package": "de.abda.eRezeptAbgabedatenBasis"
           }
@@ -888,7 +888,7 @@
           "ressource": {
             "name": "DAV_VS_ERP_MedicationDispenseTyp",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/ValueSet/DAV-VS-ERP-MedicationDispenseTyp",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "ValueSet",
             "package": "de.abda.eRezeptAbgabedatenBasis"
           }
@@ -910,7 +910,7 @@
           "ressource": {
             "name": "DAV_VS_ERP_RueckspracheArzt",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/ValueSet/DAV-VS-ERP-RueckspracheArzt",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "ValueSet",
             "package": "de.abda.eRezeptAbgabedatenBasis"
           }
@@ -932,7 +932,7 @@
           "ressource": {
             "name": "DAV_VS_ERP_ZusatzattributFAMSchluesselAbgaberangfolge",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/ValueSet/DAV-VS-ERP-ZusatzattributFAMSchluesselAbgaberangfolge",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "ValueSet",
             "package": "de.abda.eRezeptAbgabedaten"
           }
@@ -954,7 +954,7 @@
           "ressource": {
             "name": "DAV_VS_ERP_ZusatzattributFAMSchluesselMarkt",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/ValueSet/DAV-VS-ERP-ZusatzattributFAMSchluesselMarkt",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "ValueSet",
             "package": "de.abda.eRezeptAbgabedaten"
           }
@@ -976,7 +976,7 @@
           "ressource": {
             "name": "DAV_VS_ERP_ZusatzattributFAMSchluesselImportFAM",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/ValueSet/DAV-VS-ERP-ZusatzattributFAMSchluesselImportFAM",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "ValueSet",
             "package": "de.abda.eRezeptAbgabedaten"
           }
@@ -998,7 +998,7 @@
           "ressource": {
             "name": "DAV_VS_ERP_ZusatzattributSchluesselMehrkostenuebernahme",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/ValueSet/DAV-VS-ERP-ZusatzattributSchluesselMehrkostenuebernahme",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "ValueSet",
             "package": "de.abda.eRezeptAbgabedaten"
           }
@@ -1020,7 +1020,7 @@
           "ressource": {
             "name": "DAV_VS_ERP_ZusatzattributSchluesselZuzahlungsstatus",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/ValueSet/DAV-VS-ERP-ZusatzattributSchluesselZuzahlungsstatus",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "ValueSet",
             "package": "de.abda.eRezeptAbgabedaten"
           }
@@ -1042,7 +1042,7 @@
           "ressource": {
             "name": "DAV_VS_ERP_ZusatzattributTarifkennzeichen",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/ValueSet/DAV-VS-ERP-ZusatzattributTarifkennzeichen",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "ValueSet",
             "package": "de.abda.eRezeptAbgabedaten"
           }
@@ -1064,7 +1064,7 @@
           "ressource": {
             "name": "DAV_VS_ERP_ZusatzdatenEinheitFaktorkennzeichen",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/ValueSet/DAV-VS-ERP-ZusatzdatenEinheitFaktorkennzeichen",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "ValueSet",
             "package": "de.abda.eRezeptAbgabedaten"
           }
@@ -1086,7 +1086,7 @@
           "ressource": {
             "name": "DAV_VS_ERP_ZusatzdatenHerstellungHerstellerSchluessel",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/ValueSet/DAV-VS-ERP-ZusatzdatenHerstellungHerstellerSchluessel",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "ValueSet",
             "package": "de.abda.eRezeptAbgabedaten"
           }
@@ -1108,7 +1108,7 @@
           "ressource": {
             "name": "DAV_CS_ERP_ArtRezeptaenderung",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/CodeSystem/DAV-CS-ERP-ArtRezeptaenderung",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "CodeSystem",
             "package": "de.abda.eRezeptAbgabedaten"
           }
@@ -1130,7 +1130,7 @@
           "ressource": {
             "name": "DAV_CS_ERP_KostenVersicherterKategorie",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/CodeSystem/DAV-CS-ERP-KostenVersicherterKategorie",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "CodeSystem",
             "package": "de.abda.eRezeptAbgabedaten"
           }
@@ -1152,7 +1152,7 @@
           "ressource": {
             "name": "DAV_CS_ERP_ZusatzdatenEinheitPreiskennzeichen",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/CodeSystem/DAV-CS-ERP-ZusatzdatenEinheitPreiskennzeichen",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "CodeSystem",
             "package": "de.abda.eRezeptAbgabedaten"
           }
@@ -1174,7 +1174,7 @@
           "ressource": {
             "name": "DAV_VS_ERP_ZusatzdatenEinheitPreiskennzeichen",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/ValueSet/DAV-VS-ERP-ZusatzdatenEinheitPreiskennzeichen",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "ValueSet",
             "package": "de.abda.eRezeptAbgabedaten"
           }
@@ -1196,7 +1196,7 @@
           "ressource": {
             "name": "DAV_PR_ERP_AbgabedatenBundle",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PR-ERP-AbgabedatenBundle",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "Profile on Bundle",
             "package": "de.abda.eRezeptAbgabedaten"
           }
@@ -1218,7 +1218,7 @@
           "ressource": {
             "name": "DAV_PR_ERP_AbgabedatenComposition",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PR-ERP-AbgabedatenComposition",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "Profile on Composition",
             "package": "de.abda.eRezeptAbgabedaten"
           }
@@ -1240,7 +1240,7 @@
           "ressource": {
             "name": "DAV_PR_ERP_Abgabeinformationen",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PR-ERP-Abgabeinformationen",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "Profile on MedicationDispense",
             "package": "de.abda.eRezeptAbgabedaten"
           }
@@ -1262,7 +1262,7 @@
           "ressource": {
             "name": "DAV__PR_ERP_Abrechnungszeilen",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PR-ERP-Abrechnungszeilen",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "Profile on Invoice",
             "package": "de.abda.eRezeptAbgabedaten"
           }
@@ -1284,7 +1284,7 @@
           "ressource": {
             "name": "DAV_PR_ERP_Apotheke",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PR-ERP-Apotheke",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "Profile on Organization",
             "package": "de.abda.eRezeptAbgabedaten"
           }
@@ -1306,7 +1306,7 @@
           "ressource": {
             "name": "DAV_PR_ERP_ZusatzdatenEinheit",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PR-ERP-ZusatzdatenEinheit",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "Profile on Invoice",
             "package": "de.abda.eRezeptAbgabedaten"
           }
@@ -1328,7 +1328,7 @@
           "ressource": {
             "name": "DAV_PR_ERP_ZusatzdatenHerstellung",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PR-ERP-ZusatzdatenHerstellung",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "Profile on MedicationDispense",
             "package": "de.abda.eRezeptAbgabedaten"
           }
@@ -1350,7 +1350,7 @@
           "ressource": {
             "name": "DAV_VS_ERP_ArtRezeptaenderung",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/ValueSet/DAV-VS-ERP-ArtRezeptaenderung",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "ValueSet",
             "package": "de.abda.eRezeptAbgabedaten"
           }
@@ -1372,7 +1372,7 @@
           "ressource": {
             "name": "DAV_VS_ERP_KostenVersicherterKategorie",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/ValueSet/DAV-VS-ERP-KostenVersicherterKategorie",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "ValueSet",
             "package": "de.abda.eRezeptAbgabedaten"
           }
@@ -1394,7 +1394,7 @@
           "ressource": {
             "name": "DAV_VS_ERP_ArtRezeptaenderung",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/ValueSet/DAV-VS-ERP-ArtRezeptaenderung",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "ValueSet",
             "package": "de.abda.eRezeptAbgabedaten"
           }
@@ -1416,7 +1416,7 @@
           "ressource": {
             "name": "DAV_VS_ERP_KostenVersicherterKategorie",
             "url": "http://fhir.abda.de/eRezeptAbgabedaten/ValueSet/DAV-VS-ERP-KostenVersicherterKategorie",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "type": "ValueSet",
             "package": "de.abda.eRezeptAbgabedaten"
           }
