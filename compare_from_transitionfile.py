@@ -8,7 +8,7 @@ compare_dir = "compare_results"
 save_dir = "save"
 summary_dir = "_summary"
 files = os.listdir(transition_directory)
-validator_path = "/home/dev/.fhir/validators/validator_cli_v5_6_89-SNAPSHOT-at2.jar"
+validator_path = "/home/dev/.fhir/validators/validator_cli_v5_6_89.jar"
 ressources_unable_to_process = {'OperationDefinition', 'CodeSystem','NamingSystem','ValueSet'}
 
 def create_folder(fname):
