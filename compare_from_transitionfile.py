@@ -8,7 +8,7 @@ compare_dir = "compare_results"
 save_dir = "save"
 summary_dir = "_summary"
 files = os.listdir(transition_directory)
-validator_path = "/home/dev/.fhir/validators/validator_cli_v5_6_89-SNAPSHOT-at2.jar"
+validator_path = "/Users/gematik/.fhir/validators/validator_cli_v5.6.89.jar"
 ressources_unable_to_process = {'OperationDefinition', 'CodeSystem','NamingSystem','ValueSet'}
 
 def create_folder(fname):
@@ -60,8 +60,9 @@ for filename in files:
                     left_string = "{0}|{1}".format(left['url'],left['version'])
                     right_string = "{0}|{1}".format(right['url'],right['version'])
 
-                    executestring_to = "java -jar {0} -compare -tx n/a -proxy 192.168.110.10:3128 -dest \"{1}\" -version 4.0.1 {2} -left \"{3}\" -right \"{4}\"".format(validator_path, destination_to, packages,left_string,right_string)
+                    executestring_to = "java -jar {0} -compare -tx n/a -dest \"{1}\" -version 4.0.1 {2} -left \"{3}\" -right \"{4}\"".format(validator_path, destination_to, packages,left_string,right_string)
 
+                    print(executestring_to)
 
                     create_folder(destination_to+"/script")
                     f = open(os.path.join(destination_to+"/script/"+ "execute_script.sh"),"w")
